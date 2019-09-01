@@ -1,0 +1,12 @@
+{
+  "name": "grzybowscy",
+  "short_name": "grzybowscy",
+  "icons": [{
+    "src": "/grzybowscy/wp-content/themes/grzybowscy/img/logo-512x512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "start_url": "/",  "display": "standalone",
+  "background_color": "#67b0d6",
+  "theme_color": "#67b0d6"
+}
