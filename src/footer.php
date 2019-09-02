@@ -14,7 +14,7 @@ if ($post_id === 7 || $post_id === 149 || $post_id === 144 || $post_id === 135 |
 ?>
 
 <footer id="footer" class="<?php echo $class ?>">
-    <div id="info">
+    <!--<div id="info">
         <div class="container">
             <div class="row">
                 <div class="c">
@@ -44,11 +44,11 @@ if ($post_id === 7 || $post_id === 149 || $post_id === 144 || $post_id === 135 |
                     <p>Adres e-mail: <a class="link" href="mailto:kontakt@grzybowscy.pl">kontakt@grzybowscy.pl</a></p>
                     <p>Numer telefonu: 798 968 416 lub 798 784 748</p>
                     <p>Facebook: <a class="link" title="grzybowscy - nauka pływania, Warszawa" href="https://www.facebook.com/grzybowscy" target="_blank" rel="nofollow noopener">grzybowscy</a></p>
-                    <a class="button <?php echo $class ?>" href="/kontakt">Zapisz się na zajęcia</a>
+                    <a class="button <?php /*echo $class */?>" href="/kontakt">Zapisz się na zajęcia</a>
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <div id="copyright">
         <?php echo sprintf( __( '%1$s %2$s %3$s | %4$s', 'grzybowscy' ), '&copy;', date( 'Y' ), esc_html( get_bloginfo( 'name' )  ), esc_html(get_bloginfo( 'description' ))); echo sprintf( __( '<p>Wykonanie: <a href="https://patrykjankowski.pl" target="_blank">Patryk Jankowski</a></p>', 'grzybowscy' ) ); ?>
     </div>

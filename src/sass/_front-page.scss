@@ -6,99 +6,33 @@
   font-size: 40px;
 }
 
-
-
-
 .offer {
-  padding: $L 0;
   text-align: center;
 
-  img {
-    height: 120px;
+  &__item {
+    display: block;
+    margin-top: -180px;
+    background: #fff;
+
+    box-shadow: 0 0 12px rgba(136, 136, 136, 0.1);
+    padding: 30px 15px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    transition: all 0.4s ease-in-out 0s;
+
+    &:hover {
+      background: #007bff;
+    }
+  }
+
+  svg {
+    width: 50px;
+    height: 50px;
   }
 
   h4 {
     margin-bottom: $L;
-  }
-
-  .wind {
-    h4 {
-      margin-bottom: 0;
-    }
-  }
-
-  a {
-    &:hover {
-      &.fire {
-        h4 {color: $fire}
-      }
-      &.water {
-        h4 {color: $water}
-      }
-      &.ground {
-        h4 {color: $ground}
-      }
-      &.wind {
-        h4 {color: $wind}
-      }
-    }
-  }
-}
-
-
-.about {
-  padding: $XXL 0;
-  background: $fire;
-  text-align: center;
-
-  p, a {
-    color: #fff;
-  }
-}
-
-.swimming {
-  background: $water;
-  padding: $XXL 0;
-
-  img {
-    width: 100%;
-  }
-  li, a {
-    color: #fff;
-  }
-}
-
-.trainings {
-  background: $ground;
-  padding: $XXL 0;
-
-  img {
-    width: 100%;
-  }
-  li {
-    color: #fff;
-  }
-}
-
-.camps {
-  background: $wind;
-  padding: $XXL 0;
-
-  img {
-    width: 100%;
-  }
-  li, a {
-    color: #fff;
-  }
-}
-
-
-
-.partners {
-  padding: 120px 0;
-  text-align: center;
-
-  h2 {
-    margin-top: 0;
   }
 }
