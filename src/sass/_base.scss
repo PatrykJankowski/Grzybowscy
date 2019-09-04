@@ -62,10 +62,13 @@ main {
 
   &__container {
     display: flex;
+    height: 100%;
+    align-items: center;
   }
 
   &__logo {
-    width: 100px;
+    display: flex;
+    height: 36px;
   }
 
   &__nav {

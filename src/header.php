@@ -56,7 +56,7 @@
                         />
                     </g>
                     </svg>
-                Zadzwoń: 454 656 564
+                Zadzwoń: 513 079 933
             </div>
             <div class="header__contact-wrapper header__contact-wrapper--last">
                 <svg class="header__contact-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 14 14" xml:space="preserve">
@@ -69,7 +69,7 @@
                         <polygon style="fill:#fff;" points="9.167,7.079 14,11.186 14,2.875"/>
                     </g>
                 </svg>
-                    Napisz: asdasd@asdasd.pl
+                    Napisz: ubezpieczenia@grzybowscy.pl
             </div>
         </div>
     </div>
@@ -77,7 +77,7 @@
     <div class="header__middle">
         <div class="header__container container">
             <a href="/" title="J. Grzybowski - Agencja Ubezpieczeniowa">
-                <img class="header__logo" alt="Janusz Grzybowski - ubezpieczenia - Wołomin, Ząbki, Warszawa" src="/wp-content/themes/grzybowski/img/logo.png"/>
+                <img class="header__logo" alt="Janusz Grzybowski - ubezpieczenia - Wołomin, Ząbki, Warszawa" src="/wp-content/themes/grzybowski/img/logo.jpg"/>
             </a>
             <nav class="header__nav">
                 <?php wp_nav_menu(array('theme_location' => 'nav-menu', 'container' => false)); ?>
