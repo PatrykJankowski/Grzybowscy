@@ -16,10 +16,6 @@
   top: 90px;
   left: 0; //IE fix
 
-  .menu-item-12 {
-    display: none;
-  }
-
   .sub-menu {
     display: flex;
     flex-direction: column;
@@ -86,9 +82,11 @@
       transform: rotate(0);
       transition: transform 300ms 100ms;
     }
+
     &:before {
       top: -6px;
     }
+
     &:after {
       top: 6px;
     }
@@ -96,10 +94,12 @@
 
   &.open i {
     background: transparent;
+
     &:before {
       top: 0;
       transform: rotate(135deg);
     }
+
     &:after {
       top: 0;
       transform: rotate(225deg);
@@ -108,46 +108,56 @@
 }
 
 
-
-
-
-
-
-#nav {
-  display: flex;
-  position: fixed;
-  top: 0;
-  z-index: 1;
-  background: #fff;
-  width: 100%;
-}
-
-
-
-
-
-
-nav {
+/*.header__nav {
   display: none;
   flex: 1;
   text-transform: uppercase;
 
-  &> div {
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+
     flex: 1;
   }
+
+
   a {
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
+    transition: all 0.4s ease-in-out 0s;
+
+    &:hover {
+      color: #2b2b2b;
+    }
   }
+
   ul {
     list-style: none;
   }
-}
+}*/
 
-#menu-menu {
-  height: 100%;
-  display: flex;
+
+.header__nav {
+  flex: 1;
   align-items: center;
   justify-content: flex-end;
+  text-transform: uppercase;
+
+  ul {
+    li {
+      display: inline-block;
+      margin: 0 0 0 30px;
+
+      a {
+        transition: all 0.3s ease-in-out 0s;
+
+        &:hover {
+          color: #03a8f3;
+        }
+      }
+    }
+  }
 }
+
+

@@ -1,7 +1,7 @@
 {
-  "name": "grzybowscy",
+  "name": "grzybowski",
   "version": "1.0.0",
-  "description": "Grzybowscy - ubezpieczenia",
+  "description": "J. Grzybowski - ubezpieczenia",
   "main": "''",
   "dependencies": {
     "gulp-compile-handlebars": "^0.6.1",
@@ -15,7 +15,8 @@
     "gulp-image": "^5.1.0",
     "gulp-image-resize": "^0.13.1",
     "gulp-sass": "^4.0.2",
-    "gulp-uglify-es": "^1.0.4"
+    "gulp-uglify-es": "^1.0.4",
+    "gulp-watch": "^5.0.1"
   },
   "scripts": {},
   "repository": {

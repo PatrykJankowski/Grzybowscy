@@ -5,8 +5,8 @@
     <meta charset="<?php bloginfo('charset'); ?>"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#67b0d6">
-    <link rel="manifest" href="/grzybowscy/wp-content/themes/grzybowscy/manifest.json">
-    <link rel="stylesheet" type="text/css" href="/grzybowscy/wp-content/themes/grzybowscy/style.css"/>
+    <link rel="manifest" href="/wp-content/themes/grzybowski/manifest.json">
+    <link rel="stylesheet" type="text/css" href="/wp-content/themes/grzybowski/style.css"/>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src=""></script>
@@ -77,17 +77,17 @@
     <div class="header__middle">
         <div class="header__container container">
             <a href="/" title="J. Grzybowski - Agencja Ubezpieczeniowa">
-                <img class="header__logo" alt="Janusz Grzybowski - ubezpieczenia - Wołomin, Ząbki, Warszawa" src="/grzybowscy/wp-content/themes/grzybowscy/img/logo.png"/>
+                <img class="header__logo" alt="Janusz Grzybowski - ubezpieczenia - Wołomin, Ząbki, Warszawa" src="/wp-content/themes/grzybowski/img/logo.png"/>
             </a>
             <nav class="header__nav">
-                <?php wp_nav_menu(array('theme_location' => 'main-menu')); ?>
+                <?php wp_nav_menu(array('theme_location' => 'nav-menu', 'container' => false)); ?>
             </nav>
         </div>
     </div>
 
-    <div id="toggle-button" class="header__toggle" onclick="slideToggle()"><i></i></div>
+    <!--<div id="toggle-button" class="header__toggle" onclick="slideToggle()"><i></i></div>-->
     <div id="nav-mobile" class="header__nav-mobile">
-        <?php wp_nav_menu(array('theme_location' => 'main-menu')); ?>
+        <?php wp_nav_menu(array('theme_location' => 'nav-menu', 'container' => false)); ?>
     </div>
 
     <?php if (is_front_page() && !is_home()) { ?>

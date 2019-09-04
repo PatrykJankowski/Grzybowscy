@@ -22,10 +22,13 @@ add_action('init', function() {
 }, PHP_INT_MAX - 1 );
 
 
-add_filter('nav_menu_item_id', 'my_css_attributes_filter', 100, 1);
-function my_css_attributes_filter($var) {
-    return is_array($var) ? array() : '';
-}
+
+
+
+
+
+
+
 
 
 /*function add_google_fonts() {
@@ -45,10 +48,26 @@ function grzybowscy_setup() {
     add_theme_support( 'post-thumbnails' );
     global $content_width;
     if ( ! isset( $content_width ) ) $content_width = 640;
-    register_nav_menus(
-        array( 'main-menu' => __( 'Main Menu', 'grzybowscy' ) )
-    );
+    register_nav_menu('nav-menu',__( 'Menu nawigacyjne' ));
 }
+
+
+
+function nav_menu_attributes_filter($var) {
+    return is_array($var) ? array_intersect($var, array('current_page_item')) : '';
+}
+add_filter('nav_menu_css_class', 'nav_menu_attributes_filter', 100, 1);
+add_filter('nav_menu_item_id', 'nav_menu_attributes_filter', 100, 1);
+add_filter('page_css_class', 'nav_menu_attributes_filter', 100, 1);
+
+
+
+
+
+
+
+
+
 
 
 add_filter( 'the_title', 'grzybowscy_title' );
@@ -64,10 +83,6 @@ add_filter( 'wp_title', 'grzybowscy_filter_wp_title' );
 function grzybowscy_filter_wp_title( $title ) {
     return $title . esc_attr( get_bloginfo( 'name' ) );
 }
-
-
-
-
 
 
 

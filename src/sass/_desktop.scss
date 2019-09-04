@@ -2,7 +2,7 @@
 
   .current_page_item {
     > a {
-      color: #2b2b2b;
+      color: #03a8f3;
     }
   }
 
@@ -16,7 +16,7 @@
 
   }
 
-  nav {
+  .header__nav {
 
     display: flex;
 
@@ -50,7 +50,7 @@
           padding: 0 $S;
 
           &:hover {
-            color: #FFF;
+            color: #03a8f3;
           }
         }
       }
