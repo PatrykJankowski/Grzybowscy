@@ -54,7 +54,7 @@ gulp.task('fonts', function () {
 });
 
 // Watch tasks
-gulp.task('watch', function () {
+gulp.task('watch', { usePolling: false }, function () {
     gulp.watch('src/**/*.php', { usePolling: false }, gulp.series('html'));
     gulp.watch('src/**/*.scss', { usePolling: false }, gulp.series('styles'));
     gulp.watch('src/**/*.js', { usePolling: false }, gulp.series('js'));
