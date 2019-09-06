@@ -23,6 +23,15 @@
 .c {
   box-sizing: border-box;
   flex-basis: 100%;
+
+
+  display: flex;
+  flex-direction: column;
+
+
+  &:first-child {
+    padding: 0 40px 0 0;
+  }
 }
 
 .c4 {

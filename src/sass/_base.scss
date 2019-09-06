@@ -7,13 +7,18 @@ body {
   font-weight: 400;
 }
 
+
 section {
-  margin: 20px 0;
+  padding: 80px 0;
+}
+
+img {
+  max-width: 100%;
 }
 
 h1, h2, h3, h4, h5 {
-  margin: $XS 0 $S 0;
-  line-height: 1;
+  margin: 0 0 $S 0;
+  line-height: 1.22;
   font-weight: 500;
 }
 
@@ -38,7 +43,7 @@ h5 {
 }
 
 p {
-  line-height: 1.22;
+  line-height: 1.4;
   margin: 0.4rem;
 }
 
@@ -61,14 +66,14 @@ iframe {
 }
 
 label {
-  font-size: 16px;
+  // font-size: $text-size;
 }
 
 input, textarea {
   border: #384a5f 1px solid;
   border-radius: 2px;
   padding: 5px 10px;
-  font-size: 16px;
+  // font-size: $text-size;
   font-family: "Raleway", "Helvetica Neue", Helvetica, sans-serif;
   width: 90%;
 }
@@ -112,15 +117,17 @@ select:-moz-focusring {
 
 
 
-.textwidget {
+/*.textwidget {
   p {
     color: #fff;
   }
-}
+}*/
 
+/*
 .widgettitle {
   color: #fff;
 }
+*/
 
 
 
