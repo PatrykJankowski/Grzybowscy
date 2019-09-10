@@ -1,8 +1,8 @@
 {
-  "name": "grzybowscy",
-  "short_name": "grzybowscy",
+  "name": "grzybowski",
+  "short_name": "grzybowski",
   "icons": [{
-    "src": "/grzybowscy/wp-content/themes/grzybowscy/img/logo-512x512.png",
+    "src": "/grzybowski/wp-content/themes/grzybowski/img/logo-512x512.png",
     "sizes": "512x512",
     "type": "image/png"
   }],

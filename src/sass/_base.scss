@@ -19,7 +19,7 @@ img {
 h1, h2, h3, h4, h5 {
   margin: 0 0 $S 0;
   line-height: 1.22;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 h1 {
@@ -39,12 +39,13 @@ h4 {
 }
 
 h5 {
+  margin: 0;
   font-size: $h5-size;
 }
 
 p {
   line-height: 1.4;
-  margin: 0.4rem;
+  margin: 0.4rem 0;
 }
 
 a {
