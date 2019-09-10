@@ -8,10 +8,9 @@
             <div class="c">
                 <h4>Ubezpieczenia</h4>
                 <ul class="footer__list">
-                    <li><a href="/ubezpieczenia-komunikacyjne" class="footer__link">Ubezpieczenia komunikacyjne (ubezpieczenie OC, NNW, Autocasco)</a></li>
+                    <li><a href="/ubezpieczenia-komunikacyjne" class="footer__link">Ubezpieczenia komunikacyjne (ubezpieczenie OC, NNW, autocasco)</a></li>
                     <li><a href="" class="footer__link">Ubezpieczenia nieruchomości</a></li>
-                    <li><a href="" class="footer__link">Ubezpieczenia na życie</a></li>
-                    <li><a href="" class="footer__link">Ubezpieczenia zdrowotne</a></li>
+                    <li><a href="" class="footer__link">Ubezpieczenia na życie, zdrowotne</a></li>
                     <li><a href="" class="footer__link">Ubezpieczenia turystyczne, podróżne</a></li>
                 </ul>
             </div>
@@ -21,9 +20,10 @@
                 <p class="footer__paragraph footer__paragraph--first">ul. Moniuszki 9</p>
                 <p class="footer__paragraph">pon. - pt.: 8:00 - 17:30<br>
                     soboty: 8:30 - 13:00</p>
-                <p class="footer__paragraph">numery telefonu:<br>
+                <p class="footer__paragraph">kontakt:<br>
                     22 787 08 24<br>
-                    513 079 933</p>
+                    513 079 933<br>
+                    <a href="mailto:ubezpieczenia@grzybowscy.pl" class="footer__link">ubezpieczenia@grzybowscy.pl</a></p>
             </div>
 
             <div class="c">
@@ -31,9 +31,10 @@
                 <p class="footer__paragraph footer__paragraph--first">ul. Sikorskiego 33A, lok. 43</p>
                 <p class="footer__paragraph">pon. - pt.: 10:00 do 18:00<br>
                     soboty: 9:00 - 12:00</p>
-                <p class="footer__paragraph">numery telefonu:<br>
+                <p class="footer__paragraph">kontakt:<br>
                     22 771 84 85<br>
-                    602 33 99 50</p>
+                    602 33 99 50<br>
+                    <a href="mailto:ubezpieczenia@grzybowscy.pl" class="footer__link">ubezpieczenia@grzybowscy.pl</a></p>
             </div>
 
             <div class="c">
@@ -41,9 +42,10 @@
                 <p class="footer__paragraph footer__paragraph--first">ul. Jana Pawła II 22</p>
                 <p class="footer__paragraph">pon. - pt.: 09:00 do 17:00<br>
                     soboty: nieczynne</p>
-                <p class="footer__paragraph">numery telefonu:<br>
+                <p class="footer__paragraph">kontakt:<br>
                     22 744 92 63<br>
-                    516 394 162</p>
+                    516 394 162<br>
+                    <a href="mailto:ubezpieczenia@grzybowscy.pl" class="footer__link">ubezpieczenia@grzybowscy.pl</a></p>
             </div>
         </div>
     </div>
