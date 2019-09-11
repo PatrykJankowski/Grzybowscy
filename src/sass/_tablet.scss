@@ -1,5 +1,5 @@
 @media screen and (min-width: $tablet) {
-  .c {
+  .col {
     flex: 1;
   }
   .c4 {
@@ -38,10 +38,10 @@
   }
 
 
-  .offer .c:nth-child(2) {
+  .offer .col:nth-child(2) {
     margin: 0 $M/2 0 $M;
   }
-  .offer .c:nth-child(3) {
+  .offer .col:nth-child(3) {
     margin: 0 $M 0 $M/2;
   }
   .offer {

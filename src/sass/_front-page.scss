@@ -2,7 +2,7 @@
   padding: 0;
   background: #fbfbfb;
 
-  .c {
+  .col {
     padding: 0;
   }
 
@@ -14,6 +14,7 @@
     display: flex;
     position: relative;
     top: -40px;
+    margin-bottom: $M;
     background: #fff;
     box-shadow: 0 0 12px rgba(136, 136, 136, 0.1);
     padding: 30px 15px;
@@ -25,6 +26,14 @@
     align-items: center;
     text-align: center;
     transition: all 0.3s ease-in-out 0s;
+
+    :last-child {
+      margin-bottom: 0;
+    }
+
+    @media screen and (min-width: $tablet) {
+      margin-bottom: 0;
+    }
 
     &:hover {
       background: $primary;
@@ -65,20 +74,38 @@
 
   &__logos {
     display: flex;
+    flex-direction: column;
+
+    @media screen and (min-width: $tablet) {
+      flex-direction: row;
+    }
+
     align-items: center;
     justify-content: space-between;
     margin-top: $margin;
   }
 
-  &__logo-small {
-    height: 30px;
-  }
+  &__logo {
+    margin-bottom: $M;
 
-  &__logo-medium {
-    height: 40px;
-  }
+    &:last-child {
+      margin-bottom: 0;
+    }
 
-  &__logo-big {
-    height: 50px;
+    @media screen and (min-width: $tablet) {
+      margin-bottom: 0;
+    }
+
+    &--small {
+      height: 30px;
+    }
+
+    &--medium {
+      height: 40px;
+    }
+
+    &--big {
+      height: 50px;
+    }
   }
 }
