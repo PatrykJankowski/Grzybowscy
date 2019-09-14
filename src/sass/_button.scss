@@ -1,34 +1,21 @@
-.button {
-  display: block;
-  width: 212px;
-  margin-top: 20px;
-  padding: 10px;
-  align-self: center;
-  box-sizing: border-box;
-  border: #fff 1px solid;
+@import 'variables';
+
+button, .button {
+  display: inline-flex;
+  align-items: center;
+  height: 44px;
+  padding: 0 $M;
+  margin-top: $S;
+  border: none;
+  border-radius: 0.25rem;
+  background: #163963;
+  font-size: $text-size;
   color: #fff;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 400;
-  transition: all 0.3s ease;
+  cursor: pointer;
+  transition: all .3s ease-in-out 0s;
 
   &:hover {
-    background: #fff;
+    background: $secondary;
 
-    &.fire {
-      color: $fire;
-    }
-
-    &.water {
-      color: $water;
-    }
-
-    &.ground {
-      color: $ground;
-    }
-
-    &.wind {
-      color: $wind;
-    }
   }
 }

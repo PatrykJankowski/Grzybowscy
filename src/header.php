@@ -76,13 +76,14 @@
             <nav class="header__nav">
                 <?php wp_nav_menu(array('theme_location' => 'nav-menu', 'container' => false)); ?>
             </nav>
+            <div id="nav-mobile" class="header__nav-mobile">
+                <?php wp_nav_menu(array('theme_location' => 'nav-menu', 'container' => false)); ?>
+            </div>
+            <div id="toggle-button" class="header__toggle" onclick="slideToggle()"><i></i></div>
         </div>
     </div>
 
-    <!--<div id="toggle-button" class="header__toggle" onclick="slideToggle()"><i></i></div>-->
-    <div id="nav-mobile" class="header__nav-mobile">
-        <?php wp_nav_menu(array('theme_location' => 'nav-menu', 'container' => false)); ?>
-    </div>
+
 
     <?php if (is_front_page() && !is_home()) { ?>
         <div class="header__bottom">

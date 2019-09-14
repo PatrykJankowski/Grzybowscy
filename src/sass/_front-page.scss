@@ -15,7 +15,7 @@
     position: relative;
     top: -40px;
     margin-bottom: $M;
-    background: #fff;
+    background: $white;
     box-shadow: 0 0 12px rgba(136, 136, 136, 0.1);
     padding: 30px 15px;
     overflow: hidden;
@@ -37,7 +37,7 @@
 
     &:hover {
       background: $primary;
-      color: #fff;
+      color: $white;
 
       svg g {
         fill: $secondary;
@@ -52,6 +52,12 @@
         fill: $primary;
         transition: all .3s ease-in-out 0s;
       }
+    }
+  }
+
+  @media screen and (min-width: $tablet) {
+    .row:last-child {
+      margin-top: $M;
     }
   }
 }
