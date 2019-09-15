@@ -1,0 +1,32 @@
+input, textarea {
+  border: #384a5f 1px solid;
+  border-radius: 2px;
+  padding: 5px 10px;
+  font-size: $text-size;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+form {
+  p {
+    margin: 0 0 10px 0;
+  }
+}
+
+
+select::-ms-expand {
+  display: none; //IE11
+}
+
+/* Firefox - removes outline */
+select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 $text-main-color;
+}
+
+:focus {
+  outline: none;
+}
+
+::-moz-focus-inner {
+  border: 0;
+}

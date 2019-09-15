@@ -7,9 +7,9 @@
             <div class="col col--4">
                 <h5 class="footer__title">Agencja J. Grzybowski</h5>
                 <p>
-                    <a href="/ubezpieczenia-komunikacyjne" class="footer__link">Ubezpieczenia komunikacyjne (ubezpieczenie OC, NNW, autocasco)</a>
-                    <a href="" class="footer__link">Ubezpieczenia nieruchomości</a>
-                    <a href="" class="footer__link">Ubezpieczenia na życie, zdrowotne</a>
+                    <a href="/ubezpieczenia-komunikacyjne" class="footer__link">Ubezpieczenia komunikacyjne (ubezpieczenie OC, NNW, AC)</a><br>
+                    <a href="" class="footer__link">Ubezpieczenia nieruchomości</a><br>
+                    <a href="" class="footer__link">Ubezpieczenia na życie, zdrowotne</a><br>
                     <a href="" class="footer__link">Ubezpieczenia turystyczne, podróżne</a>
                 </p>
             </div>
@@ -64,11 +64,11 @@
         if (navOpened) {
             navOpened = false;
             navMobile.style.height = '0';
-            document.getElementById('toggle-button').classList.remove('open');
+            document.getElementById('header__toggle').classList.remove('header__toggle--open');
         } else {
             navOpened = true;
             navMobile.style.height = initHeight + 'px';
-            document.getElementById('toggle-button').classList.add('open');
+            document.getElementById('header__toggle').classList.add('header__toggle--open');
         }
     }
 

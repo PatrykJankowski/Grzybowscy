@@ -66,6 +66,16 @@
 .about {
   background: #fbfbfb;
 
+  &__image {
+    object-fit: cover;
+    flex-grow: 1;
+  }
+
+  &__button {
+    width: calc(100% - #{2 * $M});
+    justify-content: center;
+  }
+
   h2 {
     color: #163963;
   }

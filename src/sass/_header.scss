@@ -1,0 +1,93 @@
+.header {
+  &__container {
+    display: flex;
+  }
+
+  &__top {
+    display: flex;
+    height: $navigation-top-height;
+    align-items: center;
+    background: #163963;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  &__contact-wrapper {
+    align-items: center;
+
+    &--first {
+      padding-right: $S;
+      border-right: solid 1px #fff;
+    }
+
+    &--last {
+      padding-left: $S;
+    }
+
+    &--mobile {
+      display: inline-flex;
+
+      @media only screen and (min-width: $tablet) {
+        display: none;
+      }
+    }
+
+    &--desktop {
+      display: none;
+
+      @media only screen and (min-width: $tablet) {
+        display: inline-flex;
+      }
+    }
+  }
+
+  &__contact-link {
+    display: inline-flex;
+    color: #fff;
+    transition: all .3s ease-in-out 0s;
+
+    &:hover {
+      color: $secondary;
+    }
+  }
+
+  &__contact-icon {
+    margin-right: $XS;
+  }
+
+  &__middle {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background: #fff;
+
+    @media only screen and (min-width: $desktop) {
+      height: 100px;
+    }
+  }
+
+  &__container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+
+  &__logo {
+    display: flex;
+    height: 36px;
+  }
+
+  &__nav {
+    display: flex;
+    color: #2b2b2b;
+  }
+
+  &__bottom {
+    height: calc(100vh - 254px);
+    min-height: 550px;
+    max-height: 640px;
+    background: url("img/bg1.jpg") top;
+    background-size: cover;
+  }
+}

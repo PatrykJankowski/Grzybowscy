@@ -11,14 +11,21 @@ $margin-small: $XS;
 
 /* Sizes */
 $navigation-height: 70px;
+$navigation-top-height: 48px;
 
 /* Colors */
-$text-main-color: #2b2b2b;
-$header-color: #384a5f;
-
-$primary: #163963;
-$secondary: #03a8f3;
+$blue: #163963;
+$blue-light: #03a8f3;
+$dark: #2b2b2b;
+$gray: #384a5f;
 $white: #fff;
+
+$primary: $blue;
+$secondary: $blue-light;
+$tertiary: $gray;
+
+$header-color: $tertiary;
+$text-main-color: $dark;
 
 /* Fonts */
 $text-size: 1rem;
