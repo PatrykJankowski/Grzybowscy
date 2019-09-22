@@ -108,13 +108,12 @@
     <div class="header__middle">
         <div class="header__container container">
             <a href="/" title="J. Grzybowski – Agencja Ubezpieczeniowa">
-                <img class="header__logo" alt="Janusz Grzybowski - ubezpieczenia - Wołomin, Ząbki, Warszawa"
-                     src="/wp-content/themes/grzybowski/img/logo.jpg"/>
+                <img class="header__logo" alt="Janusz Grzybowski - ubezpieczenia - Wołomin, Ząbki, Warszawa" src="/wp-content/themes/grzybowski/img/logo.jpg"/>
             </a>
-            <nav class="header__nav">
+            <nav class="header__nav-desktop">
                 <?php wp_nav_menu(array('theme_location' => 'nav-menu', 'container' => false)); ?>
             </nav>
-            <div id="nav-mobile" class="header__nav-mobile">
+            <div id="header__nav-mobile" class="header__nav-mobile">
                 <?php wp_nav_menu(array('theme_location' => 'nav-menu', 'container' => false)); ?>
             </div>
             <div id="header__toggle" class="header__toggle" onclick="slideToggle()"><i class="header__toggle-icon"></i></div>

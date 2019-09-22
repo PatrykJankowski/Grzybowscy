@@ -59,7 +59,7 @@
 
     function slideToggle() {
 
-        let navMobile = document.getElementById('nav-mobile');
+        let navMobile = document.getElementById('header__nav-mobile');
 
         if (navOpened) {
             navOpened = false;

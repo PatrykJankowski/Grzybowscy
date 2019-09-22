@@ -39,20 +39,20 @@
       background: $primary;
       color: $white;
 
-      svg g {
+      .offer__svg-group {
         fill: $secondary;
       }
     }
+  }
 
-    svg {
-      width: 50px;
-      height: 50px;
+  &__image {
+    width: 50px;
+    height: 50px;
+  }
 
-      g {
-        fill: $primary;
-        transition: all .3s ease-in-out 0s;
-      }
-    }
+  &__svg-group {
+    fill: $primary;
+    transition: all .3s ease-in-out 0s;
   }
 
   @media screen and (min-width: $tablet) {

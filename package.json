@@ -21,12 +21,12 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fff.git"
+    "url": "git+https://github.com/PatrykJankowski/Grzybowski.git"
   },
-  "author": "",
+  "author": "Patryk Jankowski – SoftCraft",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ggg/issues"
+    "url": "https://github.com/PatrykJankowski/Grzybowski/issues"
   },
-  "homepage": "https://github.com/ggg#readme"
+  "homepage": "https://github.com/PatrykJankowski/Grzybowski#readme"
 }

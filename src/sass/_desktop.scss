@@ -1,11 +1,9 @@
 @media only screen and (min-width: $desktop) {
-
   .current_page_item {
     > a {
       color: #03a8f3;
     }
   }
-
 
   .sub-menu {
     li {
@@ -13,18 +11,19 @@
         color: #ededed;
       }
     }
-
   }
 
-  .header__nav {
+  .header__nav-mobile {
+    display: none
+  }
 
+  .header__nav-desktop {
     display: flex;
 
     div {
       li {
         position: relative;
         height: 100%;
-        //transition: all 300ms;
 
         ul {
           display: none;
@@ -34,7 +33,6 @@
           width: 100%;
 
           >li {
-            // background: $water;
             height: 80px;
           }
         }
@@ -56,11 +54,4 @@
       }
     }
   }
-
-  #nav-mobile {
-    display: none
-  }
-
-
-
 }
