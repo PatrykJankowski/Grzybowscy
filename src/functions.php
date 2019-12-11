@@ -8,7 +8,6 @@ function remove_shit(){
     wp_dequeue_style( 'contact-form-7' );
 }
 
-
 add_action('init', function() {
     remove_action('rest_api_init', 'wp_oembed_register_route');
     remove_filter('oembed_dataparse', 'wp_filter_oembed_result', 10);
@@ -20,11 +19,6 @@ add_action('init', function() {
     remove_action('admin_print_scripts', 'print_emoji_detection_script');
     remove_action('admin_print_styles', 'print_emoji_styles');
 }, PHP_INT_MAX - 1 );
-
-
-
-
-
 
 
 
@@ -67,9 +61,6 @@ add_filter('page_css_class', 'nav_menu_attributes_filter', 100, 1);
 
 
 
-
-
-
 add_filter( 'the_title', 'grzybowscy_title' );
 function grzybowscy_title( $title ) {
     if ( $title == '' ) {
@@ -84,46 +75,12 @@ function grzybowscy_filter_wp_title( $title ) {
     return $title . esc_attr( get_bloginfo( 'name' ) );
 }
 
-
-
-
-
 add_action( 'widgets_init', 'widgets_init' );
 function widgets_init() {
     register_sidebar(array(
-        'id'            => 'slogan',
-        'name'          => __('Slogan', 'grzybowski'),
-        'description'   => 'Krótki tekst w nagłówku na stronie głównej',
-        'before_title' => '<h1>',
-        'after_title'  => '</h1>',
-        'before_widget' => '',
-        'after_widget'  => '',
-    ));
-    register_sidebar(array(
         'id'            => 'about',
-        'name'          => __('O grzybowski', 'grzybowski'),
-        'description'   => 'Sekcja z krótkim opisem grzybowski na stronie głównej',
-        'before_widget' => '',
-        'after_widget'  => '',
-    ));
-    register_sidebar(array(
-        'id'            => 'swimming',
-        'name'          => __('Nauka pływania', 'grzybowski'),
-        'description'   => 'Sekcja o nauce pływania - krótki opis na stronie głównej',
-        'before_widget' => '',
-        'after_widget'  => '',
-    ));
-    register_sidebar(array(
-        'id'            => 'trainings',
-        'name'          => __('Treningi - opis', 'grzybowski'),
-        'description'   => 'Sekcja o zajęciach ogólnorozwojowych - krótki opis na stronie głównej',
-        'before_widget' => '',
-        'after_widget'  => '',
-    ));
-    register_sidebar(array(
-        'id'            => 'camps',
-        'name'          => __('Obozy - opis', 'grzybowski'),
-        'description'   => 'Sekcja o obozach - krótki opis na stronie głównej',
+        'name'          => __('O firmie', 'grzybowski'),
+        'description'   => 'Sekcja z krótkim opisem firmy na stronie głównej',
         'before_widget' => '',
         'after_widget'  => '',
     ));

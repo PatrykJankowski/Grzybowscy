@@ -6,7 +6,7 @@ const gulp = require('gulp'),
     watch = require('gulp-watch'),
     clean = require('gulp-clean');
 
-const path = "Z:\\Programy\\wamp\\www\\wp-content\\themes\\grzybowski\\";
+const path = "./dist/";
 
 
 gulp.task('clean', function () {

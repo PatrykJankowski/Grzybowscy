@@ -119,16 +119,6 @@
             <div id="header__toggle" class="header__toggle" onclick="slideToggle()"><i class="header__toggle-icon"></i></div>
         </div>
     </div>
-
-
-
-    <?php if (is_front_page() && !is_home()) { ?>
-        <div class="header__bottom">
-           <!-- <section id="branding">
-                <?php /*dynamic_sidebar('slogan'); */?>
-            </section>-->
-        </div>
-    <?php } ?>
 </header>
 
 <!-- closed in footer.php -->

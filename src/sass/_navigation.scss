@@ -16,9 +16,8 @@
       width: 100%;
       margin: 0;
 
-      li {
-        flex-direction: column;
-        padding: 0 0 0 20px;
+      a {
+        padding: 0 0 0 40px;
       }
     }
 
@@ -52,8 +51,15 @@
 
     ul {
       li {
+        position: relative;
         display: inline-block;
         margin: 0 0 0 30px;
+
+        &:hover {
+          .sub-menu {
+            display: block;
+          }
+        }
 
         a {
           color: #163963;
@@ -64,6 +70,20 @@
             color: #03a8f3;
           }
         }
+      }
+    }
+
+    .sub-menu {
+      display: none;
+      position: absolute;
+      background: $white;
+      margin: 0;
+      left: -20px;
+      padding-top: 20px;
+
+      li {
+        margin: 0;
+        padding: 20px;
       }
     }
   }
