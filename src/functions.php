@@ -58,6 +58,12 @@ add_filter('page_css_class', 'nav_menu_attributes_filter', 100, 1);
 
 
 
+add_filter( 'document_title_separator', 'cyb_document_title_separator' );
+function cyb_document_title_separator( $sep ) {
+    return "|";
+}
+
+
 
 
 
