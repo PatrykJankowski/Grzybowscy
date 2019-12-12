@@ -48,7 +48,7 @@ function grzybowscy_setup() {
 
 
 function nav_menu_attributes_filter($var) {
-    return is_array($var) ? array_intersect($var, array('current_page_item')) : '';
+    return is_array($var) ? array_intersect($var, array('current_page_item', 'current-menu-ancestor')) : '';
 }
 add_filter('nav_menu_css_class', 'nav_menu_attributes_filter', 100, 1);
 add_filter('nav_menu_item_id', 'nav_menu_attributes_filter', 100, 1);

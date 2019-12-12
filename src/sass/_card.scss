@@ -1,0 +1,55 @@
+.card {
+    padding: 0;
+    background: #fbfbfb;
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        box-shadow: 0 0 12px rgba(136,136,136,0.1);
+        background: $white;
+        text-align: center;
+        transition: all 0.3s ease-in-out 0s;
+        //clip-path: polygon(386px 50px, 356px 231px, -45px 176px, -11px -38px);
+        /* background: linear-gradient(184deg, transparent 30px, #163963 0);*/
+
+        &:hover {
+            transform: scale(1.04);
+            background: $primary;
+            color: $white;
+
+            .card__link {
+                color: $white;
+            }
+        }
+    }
+
+    &__image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    &__content {
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    &__header {
+
+    }
+
+    &__text {
+        display: flex;
+        flex-grow: 1;
+    }
+
+    &__link {
+        margin-top: $M;
+        color: $primary;
+        font-weight: bold;
+        transition: all 0.3s ease-in-out 0s;
+    }
+}
