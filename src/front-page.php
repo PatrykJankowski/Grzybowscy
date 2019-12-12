@@ -19,8 +19,8 @@
                 <a class="card__item" href="/ubezpieczenie-majatkowe-mieszkaniowe">
                     <img class="card__image" src="/wp-content/themes/grzybowski/img/ubezpieczenie-mieszkaniowe.jpg" alt="Ubezpieczenie mieszkaniowe">
                     <div class="card__content">
-                        <h4 class="card__header">Ubezpieczenia majątkowe, mieszkaniowe</h4>
-                        <p class="card__text">Ubezpieczenie komunikacyjne to ubezpieczenie obejmujące samochody osobowe, ciężarówki, motocykle oraz inne pojazdy.</p>
+                        <h4 class="card__header">Ubezpieczenia mieszkaniowe, majątkowe</h4>
+                        <p class="card__text">Ubezpieczenie nieruchomości odnosi się do mienia takiego jak dom, mieszkanie, budynek w trakcie budowy oraz do innych obiektów takich jak. np. garaż.</p>
                         <span class="card__link">Zapoznaj się z ofertą</span>
                     </div>
                 </a>
@@ -30,7 +30,7 @@
                     <img class="card__image" src="/wp-content/themes/grzybowski/img/ubezpieczenie-turystyczne.jpg" alt="ubezpieczenie turystyczne">
                     <div class="card__content">
                         <h4 class="card__header">Ubezpieczenia turystyczne</h4>
-                        <p class="card__text">Ubezpieczenie komunikacyjne to ubezpieczenie obejmujące samochody osobowe, ciężarówki, motocykle oraz inne pojazdy.</p>
+                        <p class="card__text">Ubezpieczenie turystyczne to ubezpieczenie przeznaczone na pokrycie kosztów leczenia, odwołania podróży, zagubionego bagażu, wypadku lotniczego oraz innych strat poniesionych podczas podróży.</p>
                         <span class="card__link">Zapoznaj się z ofertą</span>
                     </div>
                 </a>
@@ -40,7 +40,7 @@
                     <img class="card__image" src="/wp-content/themes/grzybowski/img/ubezpieczenie-zdrowotne.jpg" alt="Ubezpieczenie zdrowotne">
                     <div class="card__content">
                         <h4 class="card__header">Ubezpieczenia zdrowotne</h4>
-                        <p class="card__text">Ubezpieczenie komunikacyjne to ubezpieczenie obejmujące samochody osobowe, ciężarówki, motocykle oraz inne pojazdy.</p>
+                        <p class="card__text">Ubezpieczenie zdrowotne definiuje się jako ubezpieczenie, które przewiduje wypłaty świadczeń z tytułu choroby lub obrażeń ciała. Obejmuje ono ubezpieczenie strat w wyniku wypadku, poniesionych kosztów leczenia, inwalidztwa lub śmierci.</p>
                         <span class="card__link">Zapoznaj się z ofertą</span>
                     </div>
                 </a>
@@ -51,7 +51,7 @@
                     <img class="card__image" src="/wp-content/themes/grzybowski/img/ubezpieczenie-na-zycie.jpg" alt="Ubezpieczenie na życie">
                     <div class="card__content">
                         <h4 class="card__header">Ubezpieczenia na życie</h4>
-                        <p class="card__text">Ubezpieczenie komunikacyjne to ubezpieczenie obejmujące samochody osobowe, ciężarówki, motocykle oraz inne pojazdy.</p>
+                        <p class="card__text">Ubezpieczenie na życie jest umową, w której ubezpieczyciel obiecuje wypłacić wyznaczonemu beneficjentowi sumę pieniędzy w zamian za składkę, po śmierci ubezpieczonego lub w wypadku ciężkiego uszczerbku na zdrowiu.</p>
                         <span class="card__link">Zapoznaj się z ofertą</span>
                     </div>
                 </a>
@@ -62,7 +62,7 @@
                     <img class="card__image" src="/wp-content/themes/grzybowski/img/ubezpieczenie-szkolne-nnw.jpg" alt="Ubezpieczenie szkolne NNW">
                     <div class="card__content">
                         <h4 class="card__header">Ubezpieczenia szkolne NNW</h4>
-                        <p class="card__text">Ubezpieczenie komunikacyjne to ubezpieczenie obejmujące samochody osobowe, ciężarówki, motocykle oraz inne pojazdy.</p>
+                        <p class="card__text">Ubezpieczenie szkolne NNW to polisa dla dziecka w wieku szkolnym, a więc od 6 do 18 lat, chociaż rzeczywisty zasięg może wynosić od kilku miesięcy do 26 lat.</p>
                         <span class="card__link">Zapoznaj się z ofertą</span>
                     </div>
                 </a>

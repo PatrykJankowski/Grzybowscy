@@ -4,7 +4,9 @@
   color: #fff;
 
   &__title {
-    margin-bottom: 10px;
+    &--next {
+      margin-top: $S;
+    }
   }
 
   &__paragraph {
@@ -30,6 +32,12 @@
 
   &__createdby {
     display: block;
+  }
+
+  &__divider {
+    @media screen and (min-width: $tablet) {
+      margin: 20px 0;
+    }
   }
 
   @media screen and (min-width: $tablet) {

@@ -4,18 +4,26 @@
 <footer id="footer" class="footer">
     <div class="container">
         <div class="row">
-            <div class="col col--4">
-                <h5 class="footer__title">Agencja J. Grzybowski</h5>
+            <div class="col-md-3">
+                <h4 class="footer__title">Agencja J. Grzybowski</h4>
                 <p>
                     <a href="/ubezpieczenia-komunikacyjne" class="footer__link">Ubezpieczenia komunikacyjne (ubezpieczenie OC, NNW, AC)</a><br>
-                    <a href="" class="footer__link">Ubezpieczenia nieruchomości</a><br>
-                    <a href="" class="footer__link">Ubezpieczenia na życie, zdrowotne</a><br>
-                    <a href="" class="footer__link">Ubezpieczenia turystyczne, podróżne</a>
+                    <a href="" class="footer__link">Ubezpieczenia mieszkaniowe</a><br>
+                    <a href="" class="footer__link">Ubezpieczenia turystyczne (podróżne)</a><br>
+                    <a href="" class="footer__link">Ubezpieczenia na życie</a><br>
+                    <a href="" class="footer__link">Ubezpieczenia zdrowotne</a><br>
+                    <a href="" class="footer__link">Ubezpieczenia szkolne NNW</a>
+                </p>
+
+                <h5 class="footer__title--next">Dodatkowe informacje i dokumenty</h5>
+                <p>
+                    <a href="/ubezpieczenia-komunikacyjne" class="footer__link">Polityka prywatności</a><br>
+                    <a href="" class="footer__link">Dokumenty do pobrania</a>
                 </p>
             </div>
 
-            <div class="col col--4">
-                <h5>Kobyłka</h5>
+            <div class="col-md-3">
+                <h4>Kobyłka</h4>
                 <p class="footer__paragraph footer__paragraph--first">ul. Jana Pawła II 22</p>
                 <p class="footer__paragraph">pon.-pt.: 09:00-17:00<br>
                     sobota: nieczynne</p>
@@ -24,8 +32,8 @@
                     516 394 162</p>
             </div>
 
-            <div class="col col--4">
-                <h5>Wołomin</h5>
+            <div class="col-md-3">
+                <h4>Wołomin</h4>
                 <p class="footer__paragraph footer__paragraph--first">ul. Moniuszki 9</p>
                 <p class="footer__paragraph">pon.-pt.: 8:00-17:30<br>
                     sobota: 8:30 - 13:00</p>
@@ -34,8 +42,8 @@
                     513 079 933</p>
             </div>
 
-            <div class="col col--4">
-                <h5>Ząbki</h5>
+            <div class="col-md-3">
+                <h4>Ząbki</h4>
                 <p class="footer__paragraph footer__paragraph--first">ul. Sikorskiego 33A, lok. 43</p>
                 <p class="footer__paragraph">pon.-pt.: 10:00-18:00<br>
                     sobota: 9:00 - 12:00</p>
