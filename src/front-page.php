@@ -9,8 +9,9 @@
                 <a class="card__item" href="/ubezpieczenie-komunikacyjne">
                     <img class="card__image" src="/wp-content/themes/grzybowski/img/ubezpieczenie-komunikacyjne.jpg" alt="Ubezpieczenie komunikacyjne">
                     <div class="card__content">
-                        <h4 class="card__header">Ubezpieczenia OC, komunikacyjne</h4>
-                        <p class="card__text">Ubezpieczenie komunikacyjne to ubezpieczenie obejmujące samochody osobowe, ciężarówki, motocykle oraz inne pojazdy.</p>
+                        <h4 class="card__header">Ubezpieczenia komunikacyjne</h4>
+                        <p class="card__text">Ubezpieczenie komunikacyjne to ubezpieczenie obejmujące samochody osobowe, ciężarówki, motocykle oraz inne pojazdy, a nawet łodzie.</p>
+                        <p class="card__text">W ofercie posiadamy ubezpieczenia OC, AC i nie tylko!</p>
                         <span class="card__link">Zapoznaj się z ofertą</span>
                     </div>
                 </a>
@@ -19,8 +20,8 @@
                 <a class="card__item" href="/ubezpieczenie-majatkowe-mieszkaniowe">
                     <img class="card__image" src="/wp-content/themes/grzybowski/img/ubezpieczenie-mieszkaniowe.jpg" alt="Ubezpieczenie mieszkaniowe">
                     <div class="card__content">
-                        <h4 class="card__header">Ubezpieczenia mieszkaniowe, majątkowe</h4>
-                        <p class="card__text">Ubezpieczenie nieruchomości odnosi się do mienia takiego jak dom, mieszkanie, budynek w trakcie budowy oraz do innych obiektów takich jak. np. garaż.</p>
+                        <h4 class="card__header">Ubezpieczenia mieszkaniowe</h4>
+                        <p class="card__text">Ubezpieczenie nieruchomości odnosi się do mienia takiego jak dom, mieszkanie, budynek w trakcie budowy oraz do innych obiektów takich jak. np. garaż czy altana.</p>
                         <span class="card__link">Zapoznaj się z ofertą</span>
                     </div>
                 </a>
