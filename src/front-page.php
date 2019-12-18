@@ -60,10 +60,10 @@
 
             <div class="col-sm-6 col-lg-4">
                 <a class="card__item" href="/ubezpieczenie-szkolne-nnw">
-                    <img class="card__image" src="/wp-content/themes/grzybowski/img/ubezpieczenie-szkolne-nnw.jpg" alt="Ubezpieczenie szkolne NNW">
+                    <img class="card__image" src="/wp-content/themes/grzybowski/img/ubezpieczenie-nnw.jpg" alt="Ubezpieczenie NNW">
                     <div class="card__content">
-                        <h4 class="card__header">Ubezpieczenia szkolne NNW</h4>
-                        <p class="card__text">Ubezpieczenie szkolne NNW to polisa dla dziecka w wieku szkolnym, a więc od 6 do 18 lat, chociaż rzeczywisty zasięg może wynosić od kilku miesięcy do 26 lat.</p>
+                        <h4 class="card__header">Ubezpieczenia NNW</h4>
+                        <p class="card__text">Ubezpieczenie następstw nieszczęśliwych wypadków należy do grupy ubezpieczeń osobowych, w których ochroną objęte są najcenniejsze dobra, jakimi są życie lub zdrowie człowieka.</p>
                         <span class="card__link">Zapoznaj się z ofertą</span>
                     </div>
                 </a>

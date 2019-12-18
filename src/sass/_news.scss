@@ -1,0 +1,49 @@
+.news {
+    &__article {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        background: $white;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        padding: $M;
+    }
+
+    &__text {
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+    }
+
+    &__header {
+        margin: 0;
+        color: $primary;
+    }
+
+    &__image {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .wp-post-image {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    &__date {
+        display: flex;
+        padding: $XS/2 0 $XS 0;
+        font-style: italic;
+    }
+
+    &__more {
+        margin-top: $S;
+        color: $primary;
+    }
+}
