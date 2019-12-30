@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-    <section class="subpage-top"></section>
+    <section class="subpage-top subpage-top--news"></section>
 
     <section class="news">
         <div class="container">
