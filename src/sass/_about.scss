@@ -1,0 +1,23 @@
+.about {
+  background: $white;
+
+  &__image {
+    object-fit: cover;
+    height: 100%;
+  }
+
+  &__content {
+    @media screen and (min-width: $tablet) {
+      padding: 0 0 0 20px;
+    }
+  }
+
+  &__button {
+    width: calc(100% - #{2 * $M});
+    justify-content: center;
+  }
+
+  h2 {
+    color: #163963;
+  }
+}

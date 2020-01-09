@@ -1,7 +1,7 @@
 input, textarea {
   border: #384a5f 1px solid;
   border-radius: 2px;
-  padding: 5px 10px;
+  padding: 5px $XS;
   font-size: $text-size;
   font-family: "Raleway", "Helvetica Neue", Helvetica, sans-serif;
   max-width: 300px;
@@ -9,25 +9,15 @@ input, textarea {
 
 form {
   p {
-    margin: 0 0 10px 0;
+    margin: 0 0 $XS 0;
   }
 }
 
-
-select::-ms-expand {
-  display: none; //IE11
+.screen-reader-response {
+  margin-bottom: $S;
 }
 
-/* Firefox - removes outline */
-select:-moz-focusring {
-  color: transparent;
-  text-shadow: 0 0 0 $text-main-color;
-}
-
-:focus {
-  outline: none;
-}
-
-::-moz-focus-inner {
-  border: 0;
+.wpcf7-not-valid-tip {
+  display: flex;
+  color: $red
 }
