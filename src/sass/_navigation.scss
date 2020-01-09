@@ -61,13 +61,9 @@
         display: inline-block;
         margin: 0 0 0 30px;
 
-        &.current_page_item {
-          > a {
-            color: $secondary;
-          }
-        }
-
-        &.current-menu-ancestor {
+        &.current_page_item,
+        &.current-menu-ancestor,
+        &.current_page_parent {
           > a {
             color: $secondary;
           }

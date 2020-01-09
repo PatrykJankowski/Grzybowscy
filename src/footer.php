@@ -81,7 +81,7 @@
     }
 
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/grzybowski/wp-content/themes/grzybowski/sw.js');
+        navigator.serviceWorker.register('/wp-content/themes/grzybowski/sw.js');
     }
 </script>
 

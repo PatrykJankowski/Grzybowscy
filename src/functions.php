@@ -48,7 +48,7 @@ function grzybowscy_setup() {
 
 
 function nav_menu_attributes_filter($var) {
-    return is_array($var) ? array_intersect($var, array('current_page_item', 'current-menu-ancestor')) : '';
+    return is_array($var) ? array_intersect($var, array('current_page_item', 'current-menu-ancestor', 'current_page_parent')) : '';
 }
 add_filter('nav_menu_css_class', 'nav_menu_attributes_filter', 100, 1);
 add_filter('nav_menu_item_id', 'nav_menu_attributes_filter', 100, 1);
@@ -91,27 +91,3 @@ function widgets_init() {
         'after_widget'  => '',
     ));
 }
-
-
-
-
-
-
-
-
-
-add_filter( 'smush_skip_image_from_cdn', function( $status, $src, $image ) {
-
-//compare the $src here and return true to skip
-
-
-
-    if ( $src == 'https://grzybowski.patrykjankowski.pl/wp-content/themes/grzybowski/img/logo.jpg' ) {
-
-        return true;
-
-    }
-
-
-
-}, 10, 3 );

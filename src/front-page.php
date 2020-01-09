@@ -74,6 +74,15 @@
                 </a>
             </div>
         </div>
+        <div class="row">
+          <div class="col">
+            <div class="card__item card__item--basic">
+              <p>W ofercie posiadamy także inne rodzaje ubezpieczeń – napisz do nas lub zadzwoń, by dowiedzieć się więcej. Zapraszamy także do naszych placówek w Kobyłce, Wołominie oraz Ząbkach.</p>
+              <a class="button--limited button" href="/kontakt">Skontaktuj się z nami!</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 </section>
 
@@ -90,7 +99,6 @@
                 </div>
             </div>
         </div>
-    </div>
 </section>
 
 <section class="partners">
