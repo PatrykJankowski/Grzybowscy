@@ -9,6 +9,7 @@
         box-shadow: 0 0 12px rgba(136,136,136,0.1);
         background: $white;
         text-align: center;
+        color: $text-main-color;
         transition: all 0.3s ease-in-out 0s;
 
         &:hover:not(.card__item--basic) {

@@ -1,5 +1,5 @@
 input, textarea {
-  border: #384a5f 1px solid;
+  border: $gray-light 1px solid;
   border-radius: 2px;
   padding: 5px $XS;
   font-size: $text-size;
@@ -17,7 +17,11 @@ form {
   margin-bottom: $S;
 }
 
-.wpcf7-not-valid-tip {
+.wpcf7-mail-sent-ok {
+  color: $green;
+}
+
+.wpcf7-not-valid-tip, .wpcf7-validation-errors {
   display: flex;
   color: $red
 }

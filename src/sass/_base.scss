@@ -17,7 +17,7 @@ main {
 }
 
 section {
-  padding: 80px 0;
+  padding: $XL 0 $L;
 }
 
 img {
@@ -59,7 +59,7 @@ p {
 
 a {
   text-decoration: none;
-  color: $text-main-color;
+  color: $blue-light;
 }
 
 strong {
@@ -95,4 +95,19 @@ select:-moz-focusring {
 
 ::-moz-focus-inner {
   border: 0;
+}
+
+
+/* Text meant only for screen readers. */
+.screen-reader-response {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
 }
