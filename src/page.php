@@ -2,7 +2,7 @@
 <?php while (have_posts()) : the_post(); ?>
 
     <section class="subpage-top">
-        <img src="<?php the_post_thumbnail_url(); ?>"/>
+        <?php the_post_thumbnail(); ?>
     </section>
 
     <section class="subpage">

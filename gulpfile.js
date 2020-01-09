@@ -4,6 +4,7 @@ const gulp = require('gulp'),
     uglify = require('gulp-uglify-es').default,
     image = require('gulp-image'),
     watch = require('gulp-watch'),
+    webp = require('gulp-webp'),
     clean = require('gulp-clean');
 
 const path = "./dist/";
@@ -45,6 +46,7 @@ gulp.task('json', function () {
 gulp.task('images', function () {
     return gulp.src('src/img/*')
         .pipe(image())
+        .pipe(webp())
         .pipe(gulp.dest(path + 'img'))
 });
 

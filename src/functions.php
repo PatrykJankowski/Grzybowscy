@@ -91,3 +91,27 @@ function widgets_init() {
         'after_widget'  => '',
     ));
 }
+
+
+
+
+
+
+
+
+
+add_filter( 'smush_skip_image_from_cdn', function( $status, $src, $image ) {
+
+//compare the $src here and return true to skip
+
+
+
+    if ( $src == 'https://grzybowski.patrykjankowski.pl/wp-content/themes/grzybowski/img/logo.jpg' ) {
+
+        return true;
+
+    }
+
+
+
+}, 10, 3 );

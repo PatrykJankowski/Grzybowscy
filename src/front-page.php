@@ -7,7 +7,12 @@
         <div class="row">
             <div class="col-sm-6 col-lg-4">
                 <a class="card__item" href="/ubezpieczenie-komunikacyjne">
-                    <img class="card__image" src="/wp-content/themes/grzybowski/img/ubezpieczenie-komunikacyjne.jpg" alt="Ubezpieczenie komunikacyjne">
+                    <img class="card__image"
+                         src="/wp-content/themes/grzybowski/img/ubezpieczenie-komunikacyjne.webp"
+                         srcset="/wp-content/themes/grzybowski/img/ubezpieczenie-komunikacyjne-485w.webp 485w,
+                                 /wp-content/themes/grzybowski/img/ubezpieczenie-komunikacyjne-727w.webp 767w,
+                                 /wp-content/themes/grzybowski/img/ubezpieczenie-komunikacyjne.webp 768w"
+                         alt="Ubezpieczenie komunikacyjne">
                     <div class="card__content">
                         <h4 class="card__header">Ubezpieczenia komunikacyjne</h4>
                         <p class="card__text">Ubezpieczenie komunikacyjne to ubezpieczenie obejmujące samochody osobowe, ciężarówki, motocykle oraz inne pojazdy, a nawet łodzie.</p>
@@ -18,7 +23,7 @@
             </div>
             <div class="col-sm-6 col-lg-4">
                 <a class="card__item" href="/ubezpieczenie-majatkowe-mieszkaniowe">
-                    <img class="card__image" src="/wp-content/themes/grzybowski/img/ubezpieczenie-mieszkaniowe.jpg" alt="Ubezpieczenie mieszkaniowe">
+                    <img class="card__image" src="/wp-content/themes/grzybowski/img/ubezpieczenie-mieszkaniowe.webp" alt="Ubezpieczenie mieszkaniowe">
                     <div class="card__content">
                         <h4 class="card__header">Ubezpieczenia mieszkaniowe</h4>
                         <p class="card__text">Ubezpieczenie nieruchomości odnosi się do mienia takiego jak dom, mieszkanie, budynek w trakcie budowy oraz do innych obiektów takich jak. np. garaż czy altana.</p>
@@ -28,7 +33,7 @@
             </div>
             <div class="col-sm-6 col-lg-4">
                 <a class="card__item" href="/ubezpieczenie-turystyczne">
-                    <img class="card__image" src="/wp-content/themes/grzybowski/img/ubezpieczenie-turystyczne.jpg" alt="ubezpieczenie turystyczne">
+                    <img class="card__image" src="/wp-content/themes/grzybowski/img/ubezpieczenie-turystyczne.webp" alt="ubezpieczenie turystyczne">
                     <div class="card__content">
                         <h4 class="card__header">Ubezpieczenia turystyczne</h4>
                         <p class="card__text">Ubezpieczenie turystyczne to ubezpieczenie przeznaczone na pokrycie kosztów leczenia, odwołania podróży, zagubionego bagażu, wypadku lotniczego oraz innych strat poniesionych podczas podróży.</p>
@@ -38,7 +43,7 @@
             </div>
             <div class="col-sm-6 col-lg-4">
                 <a class="card__item" href="/ubezpieczenie-zdrowotne">
-                    <img class="card__image" src="/wp-content/themes/grzybowski/img/ubezpieczenie-zdrowotne.jpg" alt="Ubezpieczenie zdrowotne">
+                    <img class="card__image" src="/wp-content/themes/grzybowski/img/ubezpieczenie-zdrowotne.webp" alt="Ubezpieczenie zdrowotne">
                     <div class="card__content">
                         <h4 class="card__header">Ubezpieczenia zdrowotne</h4>
                         <p class="card__text">Ubezpieczenie zdrowotne definiuje się jako ubezpieczenie, które przewiduje wypłaty świadczeń z tytułu choroby lub obrażeń ciała. Obejmuje ono ubezpieczenie strat w wyniku wypadku, poniesionych kosztów leczenia, inwalidztwa lub śmierci.</p>
@@ -49,7 +54,7 @@
 
             <div class="col-sm-6 col-lg-4">
                 <a class="card__item" href="/ubezpieczenie-na-zycie">
-                    <img class="card__image" src="/wp-content/themes/grzybowski/img/ubezpieczenie-na-zycie.jpg" alt="Ubezpieczenie na życie">
+                    <img class="card__image" src="/wp-content/themes/grzybowski/img/ubezpieczenie-na-zycie.webp" alt="Ubezpieczenie na życie">
                     <div class="card__content">
                         <h4 class="card__header">Ubezpieczenia na życie</h4>
                         <p class="card__text">Ubezpieczenie na życie jest umową, w której ubezpieczyciel obiecuje wypłacić wyznaczonemu beneficjentowi sumę pieniędzy w zamian za składkę, po śmierci ubezpieczonego lub w wypadku ciężkiego uszczerbku na zdrowiu.</p>
@@ -60,7 +65,7 @@
 
             <div class="col-sm-6 col-lg-4">
                 <a class="card__item" href="/ubezpieczenie-szkolne-nnw">
-                    <img class="card__image" src="/wp-content/themes/grzybowski/img/ubezpieczenie-nnw.jpg" alt="Ubezpieczenie NNW">
+                    <img class="card__image" src="/wp-content/themes/grzybowski/img/ubezpieczenie-nnw.webp" alt="Ubezpieczenie NNW">
                     <div class="card__content">
                         <h4 class="card__header">Ubezpieczenia NNW</h4>
                         <p class="card__text">Ubezpieczenie następstw nieszczęśliwych wypadków należy do grupy ubezpieczeń osobowych, w których ochroną objęte są najcenniejsze dobra, jakimi są życie lub zdrowie człowieka.</p>
@@ -76,7 +81,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-                <img class="about__image" alt="J. Grzybowski - Ubezpieczenia" src="/wp-content/themes/grzybowski/img/agencja-ubezpieczeniowa.jpg" alt="J. Grzybowski - Ubezpieczenia">
+                <img class="about__image" alt="J. Grzybowski - Ubezpieczenia" src="/wp-content/themes/grzybowski/img/agencja-ubezpieczeniowa.webp" alt="J. Grzybowski - Ubezpieczenia">
             </div>
             <div class="col-sm-6">
                 <div class="about__content">
@@ -97,11 +102,11 @@
                     <img class="partners__logo partners__logo--big" alt="PZU - ubezpieczenia"
                          src="/wp-content/themes/grzybowski/img/pzu.svg">
                     <img class="partners__logo partners__logo--small" alt="Warta - ubezpieczenia"
-                         src="/wp-content/themes/grzybowski/img/warta.jpg">
+                         src="/wp-content/themes/grzybowski/img/warta.webp">
                     <img class="partners__logo partners__logo--big" alt="AXA - ubezpieczenia"
                          src="/wp-content/themes/grzybowski/img/axa.svg">
                     <img class="partners__logo partners__logo--big" alt="Ergo Hestia - ubezpieczenia"
-                         src="/wp-content/themes/grzybowski/img/ergo-hestia.jpg">
+                         src="/wp-content/themes/grzybowski/img/ergo-hestia.webp">
                     <img class="partners__logo partners__logo--medium" alt="Compensa - Vienna Insurance Group"
                          src="/wp-content/themes/grzybowski/img/compensa.svg">
                     <img class="partners__logo partners__logo--big" alt="Generali - ubezpieczenia"

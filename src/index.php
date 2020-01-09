@@ -1,6 +1,8 @@
 <?php get_header(); ?>
 
-    <section class="subpage-top subpage-top--news"></section>
+    <section class="subpage-top">
+      <img src="/wp-content/themes/grzybowski/img/aktualnosci.jpg"/>
+    </section>
 
     <section class="news">
         <div class="container">
