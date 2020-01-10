@@ -61,6 +61,15 @@
     margin-right: $XS;
   }
 
+  &__fb {
+    display: flex;
+    margin-left: auto;
+  }
+
+  &__fb-icon {
+    width: 26px;
+  }
+
   &__middle {
     display: flex;
     align-items: center;
@@ -93,9 +102,11 @@
 
 
 .banner {
+  position: relative;
   height: 300px;
   max-width: 1920px;
   margin: 0 auto;
+  padding: $M;
   background: url("img/bg1.webp") top;
   background-size: cover;
 
@@ -105,5 +116,21 @@
 
   @media only screen and (min-width: $desktop) {
     height: 640px;
+  }
+
+  &__news {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: $S;
+    background: rgba(0,0,0,.4);
+    color: $white;
+
+    @media only screen and (min-width: $tablet) {
+      right: $M;
+      bottom: $M;
+      padding: $M;
+      max-width: 500px;
+    }
   }
 }

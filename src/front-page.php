@@ -1,6 +1,18 @@
 <?php get_header(); ?>
 
-<div class="banner"></div>
+<div class="banner">
+    <?php $the_query = new WP_Query(array('posts_per_page' => 1)); ?>
+
+    <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+    <div class="banner__news">
+        <h4><?php the_title(); ?></h4>
+        <p><?php echo mb_strimwidth(get_the_content(), 0, 130, '...'); ?></p>
+        <a href="<?php the_permalink(); ?>" alt="<?php the_title_attribute(); ?>">Czytaj więcej...</a>
+    </div>
+
+    <?php endwhile; ?>
+    <?php wp_reset_postdata(); ?>
+</div>
 
 <section>
     <div class="container">
