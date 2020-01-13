@@ -3,7 +3,7 @@
   "short_name": "grzybowski",
   "icons": [{
     "src": "/grzybowski/wp-content/themes/grzybowski/img/logo-512x512.png",
-    "sizes": "512x512",
+    "sizes": "1912x318",
     "type": "image/png"
   }],
   "start_url": "/",  "display": "standalone",

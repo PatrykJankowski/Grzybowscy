@@ -5,7 +5,7 @@
     <meta charset="<?php bloginfo('charset'); ?>"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#163963">
-    <meta name="Agaencja Ubezpieczeniowa Janusz Grzybowski – oferujemy ubezpieczenia samochodów, OC, AC, ubezpieczenia na życie, ubezpieczenia NNW, mieszkaniowe oraz wiele innych" content="Put your description here.">
+    <meta name="description" content="Agencja Ubezpieczeniowa Janusz Grzybowski – oferujemy ubezpieczenia samochodów, OC, AC, ubezpieczenia na życie, ubezpieczenia NNW, mieszkaniowe oraz wiele innych">
     <link rel="manifest" href="/wp-content/themes/grzybowski/manifest.json">
     <link rel="stylesheet" type="text/css" href="/wp-content/themes/grzybowski/style.css"/>
 
@@ -104,12 +104,8 @@
                 <span>Napisz: <a class="header__contact-link" href="mailto:ubezpieczenia@grzybowscy.pl">ubezpieczenia@grzybowscy.pl</a></span>
             </div>
 
-            <a href="https://www.facebook.com/ubezpieczeniagrzybowski" target="_blank" class="header__fb">
-                <svg class="header__fb-icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="m512 75v362c0 41.398438-33.601562 75-75 75h-121l-30-30h-30l-30 30h-151c-41.398438 0-75-33.601562-75-75v-362c0-41.398438 33.601562-75 75-75h362c41.398438 0 75 33.601562 75 75zm0 0" fill="#7984eb"/>
-                    <path d="m512 75v362c0 41.398438-33.601562 75-75 75h-121l-30-30h-15v-482h166c41.398438 0 75 33.601562 75 75zm0 0" fill="#4661d1"/>
-                    <path d="m316 180v60h90l-15 90h-75v182h-90v-182h-60v-90h60v-60c0-33.300781 18.300781-62.402344 45-78 13.199219-7.5 28.800781-12 45-12h90v90zm0 0" fill="#ececf1"/>
-                    <path d="m316 180v60h90l-15 90h-75v182h-45v-410c13.199219-7.5 28.800781-12 45-12h90v90zm0 0" fill="#e2e2e7"/>
-                </svg>
+            <a href="https://www.facebook.com/ubezpieczeniagrzybowski" target="_blank" rel="noopener" title="Janusz Grzybowski – Ubezpieczenia; odwiedź naszą stronę na Facebooku" aria-label="Janusz Grzybowski – Ubezpieczenia; odwiedź naszą stronę na Facebooku" class="header__fb">
+              <svg class="header__fb-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><path d="M 30.140625 2 C 26.870375 2 24.045399 2.9969388 22.0625 4.9667969 C 20.079601 6.936655 19 9.823825 19 13.367188 L 19 18 L 13 18 A 1.0001 1.0001 0 0 0 12 19 L 12 27 A 1.0001 1.0001 0 0 0 13 28 L 19 28 L 19 47 A 1.0001 1.0001 0 0 0 20 48 L 28 48 A 1.0001 1.0001 0 0 0 29 47 L 29 28 L 36 28 A 1.0001 1.0001 0 0 0 36.992188 27.125 L 37.992188 19.125 A 1.0001 1.0001 0 0 0 37 18 L 29 18 L 29 14 C 29 12.883334 29.883334 12 31 12 L 37 12 A 1.0001 1.0001 0 0 0 38 11 L 38 3.3457031 A 1.0001 1.0001 0 0 0 37.130859 2.3554688 C 36.247185 2.2382213 33.057174 2 30.140625 2 z M 30.140625 4 C 32.578477 4 34.935105 4.195047 36 4.2949219 L 36 10 L 31 10 C 28.802666 10 27 11.802666 27 14 L 27 19 A 1.0001 1.0001 0 0 0 28 20 L 35.867188 20 L 35.117188 26 L 28 26 A 1.0001 1.0001 0 0 0 27 27 L 27 46 L 21 46 L 21 27 A 1.0001 1.0001 0 0 0 20 26 L 14 26 L 14 20 L 20 20 A 1.0001 1.0001 0 0 0 21 19 L 21 13.367188 C 21 10.22255 21.920305 7.9269075 23.472656 6.3847656 C 25.025007 4.8426237 27.269875 4 30.140625 4 z"></path></svg>
             </a>
         </div>
     </div>

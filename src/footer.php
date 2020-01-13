@@ -56,7 +56,7 @@
 
     <div class="footer__copyright">
         <p><?php echo sprintf(__('%1$s %2$s %3$s | %4$s', 'grzybowski'), '&copy;', date('Y'), esc_html(get_bloginfo('name')), esc_html(get_bloginfo('description'))); ?></p>
-        <p class="footer__createdby">Wykonanie: <a class="footer__link" href="https://softcraft.it" target="_blank">SoftCraft.it</a>
+        <p class="footer__createdby">Wykonanie: <a class="footer__link" href="https://softcraft.it" target="_blank" rel="noopener">SoftCraft.it</a>
         </p>
     </div>
 </footer>
