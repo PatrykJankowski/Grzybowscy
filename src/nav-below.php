@@ -1,6 +1,9 @@
-<?php global $wp_query; if ( $wp_query->max_num_pages > 1 ) { ?>
-<nav id="nav-below" class="navigation" role="navigation">
-<div class="nav-previous"><?php next_posts_link(sprintf( __( '%s older', 'grzybowski' ), '<span class="meta-nav">&larr;</span>' ) ) ?></div>
-<div class="nav-next"><?php previous_posts_link(sprintf( __( 'newer %s', 'grzybowski' ), '<span class="meta-nav">&rarr;</span>' ) ) ?></div>
+<nav id="nav-below" class="news__navigation" role="navigation">
+<div class="news__previous"><?php next_posts_link(sprintf( __( '%s starsze', 'grzybowski' ), '&larr;' ) ) ?></div>
+<?php
+    if ($paged > 1 && $paged != $wp_query->max_num_pages) {
+       echo "<span class='news__divider'> | </span>";
+    }
+?>
+<div class="news__next"><?php previous_posts_link(sprintf( __( 'nowsze %s', 'grzybowski' ), '&rarr;' ) ) ?></div>
 </nav>
-<?php } ?>

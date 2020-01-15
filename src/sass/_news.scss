@@ -52,4 +52,18 @@
         margin-top: $S;
         color: $primary;
     }
+
+    &__navigation {
+        display: flex;
+    }
+
+    &__next, &__previous {
+        a {
+            color: $primary;
+        }
+    }
+
+    &__divider {
+        margin: 0 $XS/2;
+    }
 }
