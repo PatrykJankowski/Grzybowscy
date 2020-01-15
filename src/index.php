@@ -20,7 +20,7 @@
                                 <time class="news__date"><?php the_date(); ?></time>
 
                                 <div class="news__text">
-                                    <?php echo wp_trim_words( get_the_content(), 40, '...' ); ?>
+                                    <?php echo force_balance_tags( html_entity_decode( wp_trim_words( htmlentities( get_the_content() ), 44, '...' ) ) ); ?>
                                 </div>
 
                                 <a class="news__more" href="<?php the_permalink(); ?>" alt="<?php the_title_attribute(); ?>">Czytaj więcej...</a>

@@ -6,7 +6,7 @@
     <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
     <div class="banner__news">
         <h4><?php the_title(); ?></h4>
-        <p><?php echo mb_strimwidth(get_the_content(), 0, 130, '...'); ?></p>
+        <p><?php echo wp_trim_words(get_the_content(), 10, '...'); ?></p>
         <a href="<?php the_permalink(); ?>" alt="<?php the_title_attribute(); ?>">Czytaj więcej...</a>
     </div>
 
