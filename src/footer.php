@@ -23,16 +23,6 @@
             </div>
 
             <div class="col-md-3">
-                <h4>Kobyłka</h4>
-                <p class="footer__paragraph footer__paragraph--first">ul. Jana Pawła II 22</p>
-                <p class="footer__paragraph">pon.-pt. 09:00-17:00<br>
-                    w soboty nieczynne</p>
-                <p class="footer__paragraph">kontakt:<br>
-                    22 744 92 63<br>
-                    516 394 162</p>
-            </div>
-
-            <div class="col-md-3">
                 <h4>Wołomin</h4>
                 <p class="footer__paragraph footer__paragraph--first">ul. Moniuszki 9</p>
                 <p class="footer__paragraph">pn.-pt. 8:00-17:30<br>
@@ -50,6 +40,16 @@
                 <p class="footer__paragraph">kontakt:<br>
                     22 771 84 85<br>
                     602 33 99 50</p>
+            </div>
+
+            <div class="col-md-3">
+                <h4>Kobyłka</h4>
+                <p class="footer__paragraph footer__paragraph--first">ul. Jana Pawła II 22</p>
+                <p class="footer__paragraph">pon.-pt. 09:00-17:00<br>
+                    w soboty nieczynne</p>
+                <p class="footer__paragraph">kontakt:<br>
+                    22 744 92 63<br>
+                    516 394 162</p>
             </div>
         </div>
     </div>

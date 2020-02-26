@@ -16,6 +16,7 @@
 
 <section>
     <div class="container">
+        <h2>Nasza oferta</h2>
         <div class="row">
             <div class="col-sm-6 col-lg-4">
                 <a class="card__item" href="/ubezpieczenie-komunikacyjne">
@@ -27,8 +28,10 @@
                          alt="Ubezpieczenie komunikacyjne">
                     <div class="card__content">
                         <h4 class="card__header">Ubezpieczenia komunikacyjne</h4>
-                        <p class="card__text">Ubezpieczenie komunikacyjne to ubezpieczenie obejmujące samochody osobowe, ciężarówki, motocykle oraz inne pojazdy, a nawet łodzie.</p>
-                        <p class="card__text">W ofercie posiadamy ubezpieczenia OC, AC i nie tylko!</p>
+                        <p class="card__text">
+                            Ubezpieczenie komunikacyjne to ubezpieczenie obejmujące samochody osobowe, ciężarówki, motocykle oraz inne pojazdy, a nawet łodzie.<br><br>
+                            W ofercie posiadamy ubezpieczenia OC, AC i nie tylko!
+                        </p>
                         <span class="card__link">Zapoznaj się z ofertą</span>
                     </div>
                 </a>
@@ -38,7 +41,7 @@
                     <img class="card__image" src="/wp-content/themes/grzybowski/img/ubezpieczenie-mieszkaniowe.webp" alt="Ubezpieczenie mieszkaniowe">
                     <div class="card__content">
                         <h4 class="card__header">Ubezpieczenia mieszkaniowe</h4>
-                        <p class="card__text">Ubezpieczenie nieruchomości odnosi się do mienia takiego jak dom, mieszkanie, budynek w trakcie budowy oraz do innych obiektów takich jak. np. garaż czy altana.</p>
+                        <p class="card__text">Ubezpieczenie nieruchomości oparte jest na umowie, w której ubezpieczyciel zobowiązuje się do pokrycia strat wynikłych ze zdarzeń w niej określonych.</p>
                         <span class="card__link">Zapoznaj się z ofertą</span>
                     </div>
                 </a>
@@ -48,7 +51,7 @@
                     <img class="card__image" src="/wp-content/themes/grzybowski/img/ubezpieczenie-turystyczne.webp" alt="ubezpieczenie turystyczne">
                     <div class="card__content">
                         <h4 class="card__header">Ubezpieczenia turystyczne</h4>
-                        <p class="card__text">Ubezpieczenie turystyczne to ubezpieczenie przeznaczone na pokrycie kosztów leczenia, odwołania podróży, zagubionego bagażu, wypadku lotniczego oraz innych strat poniesionych podczas podróży.</p>
+                        <p class="card__text">Ubezpieczenie turystyczne przeznaczone jest dla osób podróżujących prywatnie jak też służbowo za granicę oraz w Polsce. Zapewnia przede wszystkim organizację i pokrycie kosztów leczenia w razie choroby, bądź wypadku.</p>
                         <span class="card__link">Zapoznaj się z ofertą</span>
                     </div>
                 </a>
@@ -58,7 +61,7 @@
                     <img class="card__image" src="/wp-content/themes/grzybowski/img/ubezpieczenie-zdrowotne.webp" alt="Ubezpieczenie zdrowotne">
                     <div class="card__content">
                         <h4 class="card__header">Ubezpieczenia zdrowotne</h4>
-                        <p class="card__text">Ubezpieczenie zdrowotne definiuje się jako ubezpieczenie, które przewiduje wypłaty świadczeń z tytułu choroby lub obrażeń ciała. Obejmuje ono ubezpieczenie strat w wyniku wypadku, poniesionych kosztów leczenia, inwalidztwa lub śmierci.</p>
+                        <p class="card__text">Ubezpieczenie zdrowotne nazywane też ubezpieczeniem medycznym zapewnia dostęp do bardzo szerokiego zakresu usług i świadczeń, które są realizowane w placówkach medycznych o wysokiej renomie.</p>
                         <span class="card__link">Zapoznaj się z ofertą</span>
                     </div>
                 </a>
@@ -76,11 +79,11 @@
             </div>
 
             <div class="col-sm-6 col-lg-4">
-                <a class="card__item" href="/ubezpieczenie-szkolne-nnw">
+                <a class="card__item" href="/ubezpieczenie-nnw">
                     <img class="card__image" src="/wp-content/themes/grzybowski/img/ubezpieczenie-nnw.webp" alt="Ubezpieczenie NNW">
                     <div class="card__content">
                         <h4 class="card__header">Ubezpieczenia NNW</h4>
-                        <p class="card__text">Ubezpieczenie następstw nieszczęśliwych wypadków należy do grupy ubezpieczeń osobowych, w których ochroną objęte są najcenniejsze dobra, jakimi są życie lub zdrowie człowieka.</p>
+                        <p class="card__text">Ubezpieczenie NNW zapewnia ochronę przed skutkami nieszczęśliwych zdarzeń w życiu codziennym i w pracy. Szeroki zakres ubezpieczenia umożliwia dopasowanie ochrony do potrzeb ubezpieczonego, na całym świecie i przez całą dobę.</p>
                         <span class="card__link">Zapoznaj się z ofertą</span>
                     </div>
                 </a>
@@ -89,7 +92,7 @@
         <div class="row">
           <div class="col">
             <div class="card__item card__item--basic">
-              <p>W ofercie posiadamy także inne rodzaje ubezpieczeń – napisz do nas lub zadzwoń, by dowiedzieć się więcej. Zapraszamy także do naszych placówek w Kobyłce, Wołominie oraz Ząbkach.</p>
+              <p>W ofercie posiadamy także inne rodzaje ubezpieczeń – napisz do nas lub zadzwoń, by dowiedzieć się więcej. Zapraszamy także do naszych placówek w Wołominie, Ząbkach oraz Kobyłce</p>
               <a class="button--limited button" href="/kontakt">Skontaktuj się z nami!</a>
             </div>
           </div>
@@ -123,16 +126,28 @@
                          src="/wp-content/themes/grzybowski/img/pzu.svg">
                     <img class="partners__logo partners__logo--small" alt="Warta - ubezpieczenia"
                          src="/wp-content/themes/grzybowski/img/warta.webp">
-                    <img class="partners__logo partners__logo--big" alt="AXA - ubezpieczenia"
-                         src="/wp-content/themes/grzybowski/img/axa.svg">
-                    <img class="partners__logo partners__logo--big" alt="Ergo Hestia - ubezpieczenia"
-                         src="/wp-content/themes/grzybowski/img/ergo-hestia.webp">
-                    <img class="partners__logo partners__logo--medium" alt="Compensa - Vienna Insurance Group"
-                         src="/wp-content/themes/grzybowski/img/compensa.svg">
+                    <img class="partners__logo partners__logo--big" alt="HDI - ubezpieczenia"
+                         src="/wp-content/themes/grzybowski/img/hdi.svg">
                     <img class="partners__logo partners__logo--big" alt="Generali - ubezpieczenia"
                          src="/wp-content/themes/grzybowski/img/generali.svg">
+                    <img class="partners__logo partners__logo--big" alt="Proama - ubezpieczenia"
+                         src="/wp-content/themes/grzybowski/img/proama.webp">
+                    <img class="partners__logo partners__logo--big" alt="Ergo Hestia - ubezpieczenia"
+                         src="/wp-content/themes/grzybowski/img/ergo-hestia.webp">
+                    <img class="partners__logo partners__logo--medium" alt="InterRisk - ubezpieczenia"
+                         src="/wp-content/themes/grzybowski/img/inter-risk.webp">
+                    <img class="partners__logo partners__logo--big" alt="Compensa - Vienna Insurance Group - ubezpieczenia"
+                         src="/wp-content/themes/grzybowski/img/compensa.svg">
                     <img class="partners__logo partners__logo--big" alt="Wiener - ubezpieczenia"
                          src="/wp-content/themes/grzybowski/img/wiener.png">
+                    <img class="partners__logo partners__logo--big" alt="AXA - ubezpieczenia"
+                         src="/wp-content/themes/grzybowski/img/axa.svg">
+                    <img class="partners__logo partners__logo--big" alt="TUW - ubezpieczenia"
+                         src="/wp-content/themes/grzybowski/img/tuw-tuw.webp">
+                    <img class="partners__logo partners__logo--big" alt="TUZ - ubezpieczenia"
+                         src="/wp-content/themes/grzybowski/img/tuw-tuz.webp">
+                    <img class="partners__logo partners__logo--medium" alt="Link4 - ubezpieczenia"
+                         src="/wp-content/themes/grzybowski/img/link4.svg">
                 </div>
             </div>
         </div>
