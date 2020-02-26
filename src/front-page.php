@@ -134,9 +134,9 @@
                          src="/wp-content/themes/grzybowski/img/proama.webp">
                     <img class="partners__logo partners__logo--big" alt="Ergo Hestia - ubezpieczenia"
                          src="/wp-content/themes/grzybowski/img/ergo-hestia.webp">
-                    <img class="partners__logo partners__logo--medium" alt="InterRisk - ubezpieczenia"
+                    <img class="partners__logo partners__logo--big" alt="InterRisk - ubezpieczenia"
                          src="/wp-content/themes/grzybowski/img/inter-risk.webp">
-                    <img class="partners__logo partners__logo--big" alt="Compensa - Vienna Insurance Group - ubezpieczenia"
+                    <img class="partners__logo partners__logo--medium" alt="Compensa - Vienna Insurance Group - ubezpieczenia"
                          src="/wp-content/themes/grzybowski/img/compensa.svg">
                     <img class="partners__logo partners__logo--big" alt="Wiener - ubezpieczenia"
                          src="/wp-content/themes/grzybowski/img/wiener.png">
