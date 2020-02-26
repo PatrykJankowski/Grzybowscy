@@ -7,12 +7,12 @@
             <div class="col-md-3">
                 <h4 class="footer__title">Agencja J. Grzybowski</h4>
                 <p>
-                    <a href="/ubezpieczenia-komunikacyjne" class="footer__link">Ubezpieczenia komunikacyjne (ubezpieczenie OC, NNW, AC)</a><br>
-                    <a href="" class="footer__link">Ubezpieczenia mieszkaniowe</a><br>
-                    <a href="" class="footer__link">Ubezpieczenia turystyczne (podróżne)</a><br>
-                    <a href="" class="footer__link">Ubezpieczenia na życie</a><br>
-                    <a href="" class="footer__link">Ubezpieczenia zdrowotne</a><br>
-                    <a href="" class="footer__link">Ubezpieczenia szkolne NNW</a>
+                    <a href="/ubezpieczenie-komunikacyjne" class="footer__link">Ubezpieczenia komunikacyjne (ubezpieczenie OC, NNW, AC)</a><br>
+                    <a href="/ubezpieczenie-majatkowe-mieszkaniowe" class="footer__link">Ubezpieczenia mieszkaniowe</a><br>
+                    <a href="/ubezpieczenie-turystyczne" class="footer__link">Ubezpieczenia turystyczne (podróżne)</a><br>
+                    <a href="/ubezpieczenie-zdrowotne" class="footer__link">Ubezpieczenia zdrowotne</a><br>
+                    <a href="/ubezpieczenie-na-zycie" class="footer__link">Ubezpieczenia na życie</a><br>
+                    <a href="/ubezpieczenie-nnw" class="footer__link">Ubezpieczenia szkolne NNW</a>
                 </p>
 
                 <h5 class="footer__title--next">Dodatkowe informacje i dokumenty</h5>
