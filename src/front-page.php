@@ -15,7 +15,7 @@
 </div>
 
 <section>
-    <div class="container">
+    <!--<div class="container">
         <h2>Nasza oferta</h2>
         <div class="row">
             <div class="col-sm-6 col-lg-4">
@@ -40,7 +40,7 @@
                 <a class="card__item" href="/ubezpieczenie-majatkowe-mieszkaniowe">
                     <img class="card__image" src="/wp-content/themes/grzybowski/img/ubezpieczenie-mieszkaniowe.webp" alt="Ubezpieczenie mieszkaniowe">
                     <div class="card__content">
-                        <h4 class="card__header">Ubezpieczenia mieszkaniowe</h4>
+                        <h4 class="card__header">Ubezpieczenia domów i mieszkań</h4>
                         <p class="card__text">Ubezpieczenie nieruchomości oparte jest na umowie, w której ubezpieczyciel zobowiązuje się do pokrycia strat wynikłych ze zdarzeń w niej określonych.</p>
                         <span class="card__link">Zapoznaj się z ofertą</span>
                     </div>
@@ -98,14 +98,112 @@
           </div>
         </div>
       </div>
+    </div>-->
+
+
+
+
+  <div class="container">
+    <h2>Nasza oferta</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <a class="card__item card__item" href="/ubezpieczenie-komunikacyjne">
+          <img class="card__image"
+               src="/wp-content/themes/grzybowski/img/samochod.webp"
+               alt="Ubezpieczenie komunikacyjne">
+          <div class="card__content">
+            <h4 class="card__header">Ubezpieczenia komunikacyjne</h4>
+            <p class="card__text">
+              Ubezpieczenie komunikacyjne to ubezpieczenie obejmujące samochody osobowe, ciężarowe, dostawcze, autobusy, mikrobusy, samochody specjalne, motocykle, motorowery, quady, ciągniki rolnicze, pojazdy wolnobieżne oraz inne pojazdy drogowe poruszające się po drogach publicznych.
+            </p>
+            <span class="card__link">Zapoznaj się z ofertą</span>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a class="card__item card__item--right" href="/ubezpieczenie-majatkowe-mieszkaniowe">
+          <img class="card__image" src="https://images.unsplash.com/photo-1475855581690-80accde3ae2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="Ubezpieczenie mieszkaniowe">
+
+          <div class="card__content card__content--right">
+            <h4 class="card__header">Ubezpieczenia domów i mieszkań</h4>
+            <p class="card__text">Ubezpieczenie budynków i lokali mieszkalnych obejmuje następujące rodzaje mienia:
+              dom jednorodzinny,
+              lokal mieszkalny lub jego stałe elementy,
+              dom letniskowy,
+              dom w budowie
+              garaż lub inny budynek,
+              budowle i obiekty małej architektury (ogrodzenie, altana),
+              oraz ruchomości domowe.</p>
+            <span class="card__link">Zapoznaj się z ofertą</span>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a class="card__item" href="/ubezpieczenie-turystyczne">
+          <img class="card__image" src="/wp-content/themes/grzybowski/img/ubezpieczenie-turystyczne.webp" alt="ubezpieczenie turystyczne">
+          <div class="card__content">
+            <h4 class="card__header">Ubezpieczenia turystyczne</h4>
+            <p class="card__text">Ubezpieczenie turystyczne przeznaczone jest dla osób podróżujących prywatnie jak też służbowo za granicę oraz w Polsce. Zapewnia przede wszystkim organizację i pokrycie kosztów leczenia ambulatoryjnego i szpitalnego w razie choroby, bądź wypadku.</p>
+            <span class="card__link">Zapoznaj się z ofertą</span>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a class="card__item card__item--right" href="/ubezpieczenie-zdrowotne">
+          <img class="card__image" src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80" alt="Ubezpieczenie zdrowotne">
+
+          <div class="card__content card__content--right">
+            <h4 class="card__header">Ubezpieczenia zdrowotne</h4>
+            <p class="card__text">Ubezpieczenie zdrowotne nazywane też ubezpieczeniem medycznym zapewnia dostęp do bardzo szerokiego zakresu usług i świadczeń medycznych, które są realizowane w placówkach medycznych o wysokiej renomie.</p>
+            <span class="card__link">Zapoznaj się z ofertą</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-md-4">
+        <a class="card__item" href="/ubezpieczenie-na-zycie">
+          <img class="card__image" src="/wp-content/themes/grzybowski/img/ubezpieczenie-na-zycie.webp" alt="Ubezpieczenie na życie">
+          <div class="card__content">
+            <h4 class="card__header">Ubezpieczenia na życie</h4>
+            <p class="card__text">Zawierając umowę ubezpieczenia na życie są Państwo chronieni na wypadek wielu przykrych zdarzeń związanych z życiem i zdrowiem. Głównym celem ubezpieczenia na życie jest wypłata świadczenia, ale może to być także gromadzenie lub inwestowanie części wpłacanej składki.</p>
+            <span class="card__link">Zapoznaj się z ofertą</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-md-4">
+        <a class="card__item card__item--right" href="/ubezpieczenie-nnw">
+          <img class="card__image" src="https://images.unsplash.com/photo-1545262716-31d3f7881ad3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1978&q=80" alt="Ubezpieczenie NNW">
+
+          <div class="card__content card__content--right">
+            <h4 class="card__header">Ubezpieczenia NNW</h4>
+            <p class="card__text">Ubezpieczenie NNW zapewnia ochronę przed skutkami nieszczęśliwych zdarzeń w życiu codziennym i w pracy. Szeroki zakres ubezpieczenia umożliwia dopasowanie ochrony do potrzeb ubezpieczonego, na całym świecie i przez całą dobę.</p>
+            <span class="card__link">Zapoznaj się z ofertą</span>
+          </div>
+        </a>
+      </div>
     </div>
+    <div class="row">
+      <div class="col">
+        <div class="card__item card__item--basic card__item--vertical">
+          <p>W ofercie posiadamy również inne rodzaje ubezpieczeń – napisz do nas lub zadzwoń, by dowiedzieć się więcej. Zapraszamy także do naszych placówek w Wołominie, Ząbkach oraz Kobyłce.</p>
+          <a class="button--limited button" href="/kontakt">Skontaktuj się z nami!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+
 </section>
 
 <section class="about">
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-                <img class="about__image" alt="J. Grzybowski - Ubezpieczenia" src="/wp-content/themes/grzybowski/img/agencja-ubezpieczeniowa.webp" alt="J. Grzybowski - Ubezpieczenia">
+                <img class="about__image" alt="J. Grzybowski - Ubezpieczenia" src="https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="J. Grzybowski - Ubezpieczenia">
             </div>
             <div class="col-sm-6">
                 <div class="about__content">

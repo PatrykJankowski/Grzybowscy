@@ -101,7 +101,7 @@
                     <polygon points="0,2.878 0,11.186 4.833,7.079"/>
                     <polygon points="9.167,7.079 14,11.186 14,2.875"/>
                 </svg>
-                <span>Napisz: <a class="header__contact-link" href="mailto:ubezpieczenia@grzybowscy.pl">ubezpieczenia@grzybowscy.pl</a></span>
+                <span class="header__contact-link"<!-- -->>Napisz: <!--<a class="header__contact-link" href="mailto:ubezpieczenia@grzybowscy.pl">-->ubezpieczenia@grzybowscy.pl<!--</a>--></span>
             </div>
 
             <a href="https://www.facebook.com/ubezpieczeniagrzybowski" target="_blank" rel="noopener" title="Janusz Grzybowski – Ubezpieczenia; odwiedź naszą stronę na Facebooku" aria-label="Janusz Grzybowski – Ubezpieczenia; odwiedź naszą stronę na Facebooku" class="header__fb">

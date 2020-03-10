@@ -38,7 +38,7 @@
                 <p class="footer__paragraph">pon.-pt. 10:00-18:00<br>
                     sobota 9:00-12:00</p>
                 <p class="footer__paragraph">kontakt:<br>
-                    22 771 84 85<br>
+                    22 744 92 63<br>
                     602 33 99 50</p>
             </div>
 
@@ -48,8 +48,8 @@
                 <p class="footer__paragraph">pon.-pt. 09:00-17:00<br>
                     w soboty nieczynne</p>
                 <p class="footer__paragraph">kontakt:<br>
-                    22 744 92 63<br>
-                    516 394 162</p>
+                  22 771 84 85<br>
+                  516 394 162</p>
             </div>
         </div>
     </div>
