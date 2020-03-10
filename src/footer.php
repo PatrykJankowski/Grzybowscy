@@ -7,6 +7,7 @@
             <div class="col-md-3">
                 <h4 class="footer__title">Agencja J. Grzybowski</h4>
                 <p>
+                    <a href="/o-nas" class="footer__link">Agencja Ubezpieczeniowa J. Grzybowski</a><br>
                     <a href="/ubezpieczenie-komunikacyjne" class="footer__link">Ubezpieczenia komunikacyjne (ubezpieczenie OC, NNW, AC)</a><br>
                     <a href="/ubezpieczenie-majatkowe-mieszkaniowe" class="footer__link">Ubezpieczenia mieszkaniowe</a><br>
                     <a href="/ubezpieczenie-turystyczne" class="footer__link">Ubezpieczenia turystyczne (podróżne)</a><br>
@@ -25,7 +26,7 @@
             <div class="col-md-3">
                 <h4>Wołomin</h4>
                 <p class="footer__paragraph footer__paragraph--first">ul. Moniuszki 9</p>
-                <p class="footer__paragraph">pn.-pt. 8:00-17:30<br>
+                <p class="footer__paragraph">pn.-pt. 8:00-17:00<br>
                     sobota 8:30-13:00</p>
                 <p class="footer__paragraph">kontakt:<br>
                     22 787 08 24<br>
@@ -48,8 +49,8 @@
                 <p class="footer__paragraph">pon.-pt. 09:00-17:00<br>
                     w soboty nieczynne</p>
                 <p class="footer__paragraph">kontakt:<br>
-                  22 771 84 85<br>
-                  516 394 162</p>
+                    22 771 84 85<br>
+                    516 394 162</p>
             </div>
         </div>
     </div>

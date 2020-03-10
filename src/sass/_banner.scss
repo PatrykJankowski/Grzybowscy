@@ -1,11 +1,11 @@
 .banner {
     position: relative;
     height: 300px;
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: $M;
-    background: url("https://images.unsplash.com/photo-1575304368308-89e792e6f9f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80") center;
-    background-size: cover;
+    max-width: 1160px;
+    margin: 206px auto 0;
+    padding: $S;
+    background: url("img/hero2.webp") left center no-repeat;
+    background-size: contain;
 
 
     @media only screen and (min-width: $tablet) {
@@ -23,18 +23,18 @@
     &__news {
         position: absolute;
         right: 0;
-        bottom: 0;
+        bottom: -80px;
         width: 100%;
         padding: $S;
-        background: rgba(0,0,0,.4);
-        color: $white;
+        background: rgba(255,255,255,.4);
+        box-shadow: 0 0 12px rgba(136,136,136,0.1);
 
         @media only screen and (min-width: $tablet) {
             right: $M;
-            bottom: $M;
+            bottom: 70px;
             padding: $M;
             width: 100%;
-            max-width: 500px;
+            max-width: 450px;
         }
     }
 }
