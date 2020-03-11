@@ -1,9 +1,5 @@
 <?php get_header(); ?>
 
-    <section class="subpage-top">
-      <img src="/wp-content/themes/grzybowski/img/aktualnosci.jpg"/>
-    </section>
-
     <section class="news">
         <div class="container">
             <div class="row">
@@ -23,7 +19,7 @@
                                     <?php echo force_balance_tags( html_entity_decode( wp_trim_words( htmlentities( get_the_content() ), 44, '...' ) ) ); ?>
                                 </div>
 
-                                <a class="news__more" href="<?php the_permalink(); ?>" alt="<?php the_title_attribute(); ?>">Czytaj więcej...</a>
+                                <a class="news__more" href="<?php the_permalink(); ?>" alt="<?php the_title_attribute(); ?>">Czytaj więcej »</a>
                             </div>
                         </article>
                     </div>

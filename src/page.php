@@ -2,12 +2,16 @@
 <?php while (have_posts()) : the_post(); ?>
 
     <section class="subpage-top">
-        <?php the_post_thumbnail(); ?>
+        <div class="container">
+            <div class="subpage-top__container">
+                <?php the_post_thumbnail(); ?>
+                <h1 class="subpage-top__header"><?php the_title(); ?></h1>
+            </div>
+        </div>
     </section>
 
     <section class="subpage">
         <div class="container">
-            <h1 class="supage__header"><?php the_title(); ?></h1>
             <?php the_content(); ?>
         </div>
     </section>

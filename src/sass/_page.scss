@@ -1,17 +1,41 @@
 .subpage-top {
-  max-width: 1920px;
-  height: 200px;
-  margin: 0 auto;
   padding: 0;
 
-  img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+  .attachment-post-thumbnail {
+    width: auto;
+    height: 120px;
+    margin-right: $S;
+  }
+
+  &__img {
+    height: 200px;
+    margin-right: $S;
+  }
+
+  &__back {
+    display: block;
+    margin: $S 0 $M;
+    font-weight: bold;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    margin-bottom: $S;
+  }
+
+  &__header {
+    margin-bottom: 0;
+
+    &--margin {
+      margin-bottom: $XS;
+    }
   }
 }
 
 .subpage {
+  padding-top: $S;
+
   h2 {
     margin-top: $M;
   }
