@@ -18,8 +18,8 @@
 
                 <h5 class="footer__title--next">Dodatkowe informacje i dokumenty</h5>
                 <p>
-                    <a href="/ubezpieczenia-komunikacyjne" class="footer__link">Polityka prywatności</a><br>
-                    <a href="" class="footer__link">Dokumenty do pobrania</a>
+                    <a href="/polityka-prywatnosci" class="footer__link">Polityka prywatności</a><br>
+                    <a href="/pliki-do-pobrania" class="footer__link">Dokumenty do pobrania</a>
                 </p>
             </div>
 
@@ -62,6 +62,11 @@
     </div>
 </footer>
 
+<div class="cookies">
+    <p class="cookies__text">Strona korzysta z plików cookie. Warunki przechowywania oraz dostępu plików cookie możesz samodzielnie okreslić w swojej przeglądarce.</p>
+    <div class="button cookies__close">Nie pokazuj</div>
+</div>
+
 <script defer>
     let navOpened = false;
     let initHeight = 491;
@@ -80,6 +85,38 @@
             document.getElementById('header__toggle').classList.add('header__toggle--open');
         }
     }
+
+    // ---------- cookies banner ---------- //
+    const cookieName = 'grzybowski';
+    const cookieValue = 'dismissed';
+
+    document.querySelector('.cookies__close').addEventListener('click', closeCookieBanner);
+
+    isCookieBannerClosed();
+
+    function closeCookieBanner() {
+        const date = new Date();
+        // Cookie is valid 104 days
+        date.setTime(date.getTime() + (9000000000));
+        document.cookie = `${cookieName}=${cookieValue};expires=${date.toUTCString()};path=/`;
+        document.querySelector('.cookies').classList.remove("cookies--show");
+    }
+
+    function isCookieBannerClosed() {
+        const cookies = decodeURIComponent(document.cookie).split(';');
+
+        for (let cookie of cookies) {
+            cookie = cookie.trim();
+            if (cookie === `${cookieName}=${cookieValue}`) {
+                document.querySelector('.cookies').classList.remove("cookies--show");
+                return true;
+            }
+        }
+
+        document.querySelector('.cookies').classList.add("cookies--show");
+    }
+    // ---------- /cookies banner ---------- //
+
 
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('/wp-content/themes/grzybowski/sw.js');

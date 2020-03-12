@@ -1,15 +1,15 @@
 .subpage-top {
-  padding: 0;
+  padding: 40px 0 0;
 
   .attachment-post-thumbnail {
     width: auto;
     height: 120px;
-    margin-right: $S;
+    margin-right: $M;
   }
 
   &__img {
-    height: 200px;
-    margin-right: $S;
+    height: 300px;
+    margin-right: $M;
   }
 
   &__back {

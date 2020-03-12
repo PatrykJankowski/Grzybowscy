@@ -13,11 +13,12 @@ main {
 
   @media screen and (min-width: $desktop) {
     margin-top: $navigation-top-height + 100px;
+    min-height: calc(100vh - 657px);
   }
 }
 
 section {
-  padding: $XL 0 $L;
+  padding: $L 0 $L;
 }
 
 img {
@@ -131,3 +132,4 @@ select:-moz-focusring {
 .center {
   text-align: center;
 }
+

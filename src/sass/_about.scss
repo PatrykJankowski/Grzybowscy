@@ -1,14 +1,33 @@
 .about {
+
+  &--white {
+    background-color: $white;
+  }
+
   &__image {
-    height: 200px;
+    height: 160px;
     display: block;
-    margin: 60px auto;
+    margin: 0 auto 60px;
+
+    @media screen and (min-width: $tablet) {
+      margin: 60px auto;
+    }
   }
 
   &__content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     @media screen and (min-width: $tablet) {
       padding: 0 0 0 20px;
     }
+  }
+
+  &__button {
+    width: 224px;
+    justify-content: center;
   }
 
   h2 {

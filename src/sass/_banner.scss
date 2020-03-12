@@ -1,40 +1,58 @@
 .banner {
     position: relative;
-    height: 300px;
+    height: 280px;
     max-width: 1160px;
-    margin: 206px auto 0;
+    margin: 0 auto 160px;
     padding: $S;
-    background: url("img/hero2.webp") left center no-repeat;
+    background: url("img/hero2.webp") center no-repeat;
     background-size: contain;
-
 
     @media only screen and (min-width: $tablet) {
         height: 400px;
+        margin-bottom: 0;
+        background-position: left center;
     }
 
     @media only screen and (min-width: $desktop) {
-        height: 500px;
+        margin-top: 166px;
     }
 
-    @media only screen and (min-width: 1200px) {
-        height: 500px;
+    @media only screen and (min-width: 1367px) {
+        height: 450px;
+        margin-top: 166px;
     }
 
     &__news {
         position: absolute;
         right: 0;
-        bottom: -80px;
+        bottom: -160px;
         width: 100%;
-        padding: $S;
-        background: rgba(255,255,255,.4);
+        background-color: rgba(255,255,255,.8);
         box-shadow: 0 0 12px rgba(136,136,136,0.1);
 
         @media only screen and (min-width: $tablet) {
             right: $M;
             bottom: 70px;
-            padding: $M;
             width: 100%;
             max-width: 450px;
+            box-shadow: 0 0 8px rgba(237,156,14,0.6);
+            border: 6px solid #F59B10;
         }
+    }
+
+    &__inner-news {
+        padding: $M;
+
+        @media only screen and (min-width: $tablet) {
+            padding: $M;
+            border: 6px solid #FFC42B;
+        }
+    }
+
+    &__link {
+        display: block;
+        margin-top: $XS;
+        color: $blue;
+        font-weight: bold;
     }
 }

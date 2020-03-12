@@ -34,6 +34,14 @@ html {
   flex-wrap: wrap;
   margin-right: -10px;
   margin-left: -10px;
+
+  &--reversed {
+    flex-direction: column-reverse;
+
+    @include for-size(tablet) {
+      flex-direction: row;
+    }
+  }
 }
 
 .col-3, .col-4, .col-6, .col-8, .col-9, .col-10, .col-12, .col,
