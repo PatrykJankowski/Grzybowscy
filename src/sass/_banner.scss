@@ -2,7 +2,7 @@
     position: relative;
     height: 280px;
     max-width: 1160px;
-    margin: 0 auto 160px;
+    margin: 138px auto 160px;
     padding: $S;
     background: url("img/hero2.webp") center no-repeat;
     background-size: contain;
@@ -14,12 +14,11 @@
     }
 
     @media only screen and (min-width: $desktop) {
-        margin-top: 166px;
+        margin-top: 176px;
     }
 
     @media only screen and (min-width: 1367px) {
         height: 450px;
-        margin-top: 166px;
     }
 
     &__news {
