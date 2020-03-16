@@ -23,7 +23,7 @@
       <div class="col-md-4">
         <a class="card__item card__item" href="/ubezpieczenie-komunikacyjne">
           <img class="card__image"
-               src="/wp-content/themes/grzybowski/img/1.webp"
+               src="/wp-content/themes/grzybowski/img/1.png"
                alt="Ubezpieczenie komunikacyjne">
           <div class="card__content">
             <h3 class="card__header">Ubezpieczenia komunikacyjne</h3>
@@ -36,7 +36,7 @@
       </div>
       <div class="col-md-4">
         <a class="card__item card__item--right" href="/ubezpieczenie-majatkowe-mieszkaniowe">
-          <img class="card__image" src="/wp-content/themes/grzybowski/img/2.webp" alt="Ubezpieczenie mieszkaniowe">
+          <img class="card__image" src="/wp-content/themes/grzybowski/img/2.png" alt="Ubezpieczenie mieszkaniowe">
 
           <div class="card__content card__content--right">
             <h3 class="card__header">Ubezpieczenia domów i mieszkań</h3>
@@ -54,7 +54,7 @@
       </div>
       <div class="col-md-4">
         <a class="card__item" href="/ubezpieczenie-turystyczne">
-          <img class="card__image" src="/wp-content/themes/grzybowski/img/3b.webp" alt="ubezpieczenie turystyczne">
+          <img class="card__image" src="/wp-content/themes/grzybowski/img/3b.png" alt="ubezpieczenie turystyczne">
           <div class="card__content">
             <h3 class="card__header">Ubezpieczenia turystyczne</h3>
             <p class="card__text">Ubezpieczenie turystyczne przeznaczone jest dla osób podróżujących prywatnie jak też służbowo za granicę oraz w Polsce. Zapewnia przede wszystkim organizację i pokrycie kosztów leczenia ambulatoryjnego i szpitalnego w razie choroby, bądź wypadku.</p>
@@ -64,7 +64,7 @@
       </div>
       <div class="col-md-4">
         <a class="card__item card__item--right" href="/ubezpieczenie-zdrowotne">
-          <img class="card__image" src="/wp-content/themes/grzybowski/img/4.webp" alt="Ubezpieczenie zdrowotne">
+          <img class="card__image" src="/wp-content/themes/grzybowski/img/4.png" alt="Ubezpieczenie zdrowotne">
 
           <div class="card__content card__content--right">
             <h3 class="card__header">Ubezpieczenia zdrowotne</h3>
@@ -76,7 +76,7 @@
 
       <div class="col-md-4">
         <a class="card__item" href="/ubezpieczenie-na-zycie">
-          <img class="card__image" src="/wp-content/themes/grzybowski/img/5.webp" alt="Ubezpieczenie na życie">
+          <img class="card__image" src="/wp-content/themes/grzybowski/img/5.png" alt="Ubezpieczenie na życie">
           <div class="card__content">
             <h3 class="card__header">Ubezpieczenia na życie</h3>
             <p class="card__text">Zawierając umowę ubezpieczenia na życie są Państwo chronieni na wypadek wielu przykrych zdarzeń związanych z życiem i zdrowiem. Głównym celem ubezpieczenia na życie jest wypłata świadczenia, ale może to być także gromadzenie lub inwestowanie części wpłacanej składki.</p>
@@ -87,7 +87,7 @@
 
       <div class="col-md-4">
         <a class="card__item card__item--right" href="/ubezpieczenie-nnw">
-          <img class="card__image" src="/wp-content/themes/grzybowski/img/6.webp" alt="Ubezpieczenie NNW (wypadkowe)">
+          <img class="card__image" src="/wp-content/themes/grzybowski/img/6.png" alt="Ubezpieczenie NNW (wypadkowe)">
 
           <div class="card__content card__content--right">
             <h3 class="card__header">Ubezpieczenia NNW (wypadkowe)</h3>
@@ -112,7 +112,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
-                <img class="about__image" alt="J. Grzybowski - Ubezpieczenia" src="/wp-content/themes/grzybowski/img/o.webp" alt="J. Grzybowski - Ubezpieczenia">
+                <img class="about__image" alt="J. Grzybowski - Ubezpieczenia" src="/wp-content/themes/grzybowski/img/o.png" alt="J. Grzybowski - Ubezpieczenia">
             </div>
             <div class="col-sm-8">
                 <div class="about__content">
@@ -135,7 +135,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <img class="about__image" alt="J. Grzybowski - Ubezpieczenia" src="/wp-content/themes/grzybowski/img/pliki.webp" alt="J. Grzybowski - Ubezpieczenia">
+                <img class="about__image" alt="J. Grzybowski - Ubezpieczenia" src="/wp-content/themes/grzybowski/img/pliki.png" alt="J. Grzybowski - Ubezpieczenia">
             </div>
         </div>
 </section>

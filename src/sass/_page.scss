@@ -8,8 +8,11 @@
   }
 
   &__img {
-    height: 300px;
-    margin-right: $M;
+    max-height: 300px;
+
+    @include for-size(tablet) {
+      margin-right: $M;
+    }
   }
 
   &__back {
@@ -29,12 +32,23 @@
     }
   }
 
+  &__inner {
+    align-self: flex-start;
+    margin-bottom: $S;
+
+    @include for-size(tablet) {
+      align-self: auto;
+      margin-bottom: 0;
+    }
+  }
+
   &__header {
     margin: $S 0 0;
     align-self: flex-start;
 
     @include for-size(tablet) {
       align-self: auto;
+      margin: 0;
     }
 
     &--margin {

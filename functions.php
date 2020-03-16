@@ -43,7 +43,6 @@ function grzybowscy_setup() {
     global $content_width;
     if ( ! isset( $content_width ) ) $content_width = 640;
     register_nav_menu('nav-menu',__( 'Menu nawigacyjne' ));
-    register_nav_menu('nav-menu-mobile',__( 'Menu mobilne' ));
 }
 
 

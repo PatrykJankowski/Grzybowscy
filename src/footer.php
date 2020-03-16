@@ -29,8 +29,8 @@
                 <p class="footer__paragraph">pn.-pt. 8:00-17:00<br>
                     sobota 8:30-13:00</p>
                 <p class="footer__paragraph">kontakt:<br>
-                    22 787 08 24<br>
-                    513 079 933</p>
+                    513 079 933<br>
+                    22 787 08 24</p>
             </div>
 
             <div class="col-md-3">
@@ -39,8 +39,8 @@
                 <p class="footer__paragraph">pon.-pt. 10:00-18:00<br>
                     sobota 9:00-12:00</p>
                 <p class="footer__paragraph">kontakt:<br>
-                    22 744 92 63<br>
-                    602 33 99 50</p>
+                    602 33 99 50<br>
+                    22 744 92 63</p>
             </div>
 
             <div class="col-md-3">
@@ -49,8 +49,8 @@
                 <p class="footer__paragraph">pon.-pt. 09:00-17:00<br>
                     w soboty nieczynne</p>
                 <p class="footer__paragraph">kontakt:<br>
-                    22 771 84 85<br>
-                    516 394 162</p>
+                    516 394 162<br>
+                    22 771 84 85</p>
             </div>
         </div>
     </div>
@@ -69,7 +69,7 @@
 
 <script defer>
     let navOpened = false;
-    let initHeight = 491;
+    let initHeight = 432;
 
     function slideToggle() {
 
