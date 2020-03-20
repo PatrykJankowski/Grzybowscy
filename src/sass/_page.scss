@@ -4,7 +4,10 @@
   .attachment-post-thumbnail {
     width: auto;
     height: 120px;
-    margin-right: $M;
+
+    @include for-size(tablet) {
+      margin-right: $M;
+    }
   }
 
   &__img {
