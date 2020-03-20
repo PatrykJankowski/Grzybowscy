@@ -1,6 +1,5 @@
 </main>
 
-
 <footer id="footer" class="footer">
     <div class="container">
         <div class="row">
@@ -9,17 +8,17 @@
                 <p>
                     <a href="/o-nas" class="footer__link">Agencja Ubezpieczeniowa J. Grzybowski</a><br>
                     <a href="/ubezpieczenie-komunikacyjne" class="footer__link">Ubezpieczenia komunikacyjne (ubezpieczenie OC, NNW, AC)</a><br>
-                    <a href="/ubezpieczenie-majatkowe-mieszkaniowe" class="footer__link">Ubezpieczenia mieszkaniowe</a><br>
+                    <a href="/ubezpieczenie-domow-mieszkan" class="footer__link">Ubezpieczenia mieszkaniowe</a><br>
                     <a href="/ubezpieczenie-turystyczne" class="footer__link">Ubezpieczenia turystyczne (podróżne)</a><br>
                     <a href="/ubezpieczenie-zdrowotne" class="footer__link">Ubezpieczenia zdrowotne</a><br>
                     <a href="/ubezpieczenie-na-zycie" class="footer__link">Ubezpieczenia na życie</a><br>
-                    <a href="/ubezpieczenie-nnw" class="footer__link">Ubezpieczenia szkolne NNW</a>
+                    <a href="/ubezpieczenie-nnw" class="footer__link">Ubezpieczenia NNW (wypadkowe)</a>
                 </p>
 
                 <h5 class="footer__title--next">Dodatkowe informacje i dokumenty</h5>
                 <p>
                     <a href="/polityka-prywatnosci" class="footer__link">Polityka prywatności</a><br>
-                    <a href="/pliki-do-pobrania" class="footer__link">Dokumenty do pobrania</a>
+                    <a href="/dokumenty-do-pobrania" class="footer__link">Dokumenty do pobrania</a>
                 </p>
             </div>
 
@@ -63,7 +62,7 @@
 </footer>
 
 <div class="cookies">
-    <p class="cookies__text">Strona korzysta z plików cookie. Warunki przechowywania oraz dostępu plików cookie możesz samodzielnie okreslić w swojej przeglądarce.</p>
+    <p class="cookies__text">Strona korzysta z plików cookie. Warunki przechowywania oraz dostępu plików cookie możesz samodzielnie określić w swojej przeglądarce.</p>
     <div class="button cookies__close">Nie pokazuj</div>
 </div>
 

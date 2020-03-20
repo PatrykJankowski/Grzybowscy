@@ -8,6 +8,7 @@ function remove_shit(){
     wp_dequeue_style( 'contact-form-7' );
 }
 
+
 add_action('init', function() {
     remove_action('rest_api_init', 'wp_oembed_register_route');
     remove_filter('oembed_dataparse', 'wp_filter_oembed_result', 10);
@@ -20,18 +21,10 @@ add_action('init', function() {
     remove_action('admin_print_styles', 'print_emoji_styles');
 }, PHP_INT_MAX - 1 );
 
-
-
-
-
-
 /*function add_google_fonts() {
     wp_enqueue_style('google_web_fonts', 'https://fonts.googleapis.com/css?family=Raleway:400,500');
 }
 add_action( 'wp_enqueue_scripts', 'add_google_fonts' );*/
-
-
-
 
 
 add_action( 'after_setup_theme', 'grzybowscy_setup' );
@@ -47,7 +40,6 @@ function grzybowscy_setup() {
 }
 
 
-
 function nav_menu_attributes_filter($var) {
     return is_array($var) ? array_intersect($var, array('current_page_item', 'current-menu-ancestor', 'current_page_parent')) : '';
 }
@@ -56,16 +48,10 @@ add_filter('nav_menu_item_id', 'nav_menu_attributes_filter', 100, 1);
 add_filter('page_css_class', 'nav_menu_attributes_filter', 100, 1);
 
 
-
-
-
 add_filter( 'document_title_separator', 'cyb_document_title_separator' );
 function cyb_document_title_separator( $sep ) {
     return "|";
 }
-
-
-
 
 
 add_filter( 'the_title', 'grzybowscy_title' );
@@ -77,10 +63,12 @@ function grzybowscy_title( $title ) {
     }
 }
 
+
 add_filter( 'wp_title', 'grzybowscy_filter_wp_title' );
 function grzybowscy_filter_wp_title( $title ) {
     return $title . esc_attr( get_bloginfo( 'name' ) );
 }
+
 
 add_action( 'widgets_init', 'widgets_init' );
 function widgets_init() {

@@ -7,7 +7,7 @@
   &__image {
     height: 160px;
     display: block;
-    margin: 0 auto 60px;
+    margin: 0 auto $S;
 
     @media screen and (min-width: $tablet) {
       margin: 60px auto;
