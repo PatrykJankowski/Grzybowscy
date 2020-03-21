@@ -1,5 +1,4 @@
 .about {
-
   &--white {
     background-color: $white;
   }
@@ -23,11 +22,24 @@
     @media screen and (min-width: $tablet) {
       padding: 0 0 0 20px;
     }
+
+    p:first-of-type {
+      margin-top: 0;
+    }
   }
 
   &__button {
     width: 224px;
     justify-content: center;
+  }
+
+  .textwidget {
+    display: flex;
+    flex-direction: column;
+
+    p:first-of-type {
+      margin-top: 0;
+    }
   }
 
   h2 {

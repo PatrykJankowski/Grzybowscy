@@ -22,7 +22,7 @@
         <div class="row">
             <div class="col-md-4">
                 <a class="card__item card__item" href="/ubezpieczenie-komunikacyjne">
-                    <img class="card__image" src="/wp-content/themes/grzybowski/img/ikona-samochod.png" alt="Ubezpieczenie komunikacyjne">
+                    <img class="card__image" src="/wp-content/uploads/2020/03/ikona-samochod.png" alt="Ubezpieczenie komunikacyjne">
                     <div class="card__content">
                         <h3 class="card__header">Ubezpieczenia komunikacyjne</h3>
                         <p class="card__text">
@@ -34,7 +34,7 @@
             </div>
             <div class="col-md-4">
                 <a class="card__item card__item--right" href="/ubezpieczenie-domow-mieszkan">
-                    <img class="card__image" src="/wp-content/themes/grzybowski/img/ikona-dom.png" alt="Ubezpieczenie mieszkaniowe">
+                    <img class="card__image" src="/wp-content/uploads/2020/03/ikona-dom.png" alt="Ubezpieczenie mieszkaniowe">
 
                     <div class="card__content card__content--right">
                         <h3 class="card__header">Ubezpieczenia mieszkaniowe</h3>
@@ -52,7 +52,7 @@
             </div>
             <div class="col-md-4">
                 <a class="card__item" href="/ubezpieczenie-turystyczne">
-                    <img class="card__image" src="/wp-content/themes/grzybowski/img/ikona-samolot.png" alt="Ubezpieczenie turystyczne">
+                    <img class="card__image" src="/wp-content/uploads/2020/03/ikona-samolot.png" alt="Ubezpieczenie turystyczne">
                     <div class="card__content">
                         <h3 class="card__header">Ubezpieczenia turystyczne</h3>
                         <p class="card__text">Ubezpieczenie turystyczne przeznaczone jest dla osób podróżujących prywatnie jak też służbowo za granicę oraz w Polsce. Zapewnia przede wszystkim organizację i pokrycie kosztów leczenia ambulatoryjnego i szpitalnego w razie choroby, bądź wypadku.</p>
@@ -62,7 +62,7 @@
             </div>
             <div class="col-md-4">
                 <a class="card__item card__item--right" href="/ubezpieczenie-zdrowotne">
-                    <img class="card__image" src="/wp-content/themes/grzybowski/img/ikona-apteczka.png" alt="Ubezpieczenie zdrowotne">
+                    <img class="card__image" src="/wp-content/uploads/2020/03/ikona-apteczka.png" alt="Ubezpieczenie zdrowotne">
 
                     <div class="card__content card__content--right">
                         <h3 class="card__header">Ubezpieczenia zdrowotne</h3>
@@ -74,7 +74,7 @@
 
             <div class="col-md-4">
                 <a class="card__item" href="/ubezpieczenie-na-zycie">
-                    <img class="card__image" src="/wp-content/themes/grzybowski/img/ikona-rodzina.png" alt="Ubezpieczenie na życie">
+                    <img class="card__image" src="/wp-content/uploads/2020/03/ikona-rodzina.png" alt="Ubezpieczenie na życie">
                     <div class="card__content">
                         <h3 class="card__header">Ubezpieczenia na życie</h3>
                         <p class="card__text">Zawierając umowę ubezpieczenia na życie są Państwo chronieni na wypadek wielu przykrych zdarzeń związanych z życiem i zdrowiem. Głównym celem ubezpieczenia na życie jest wypłata świadczenia, ale może to być także gromadzenie lub inwestowanie części wpłacanej składki.</p>
@@ -85,7 +85,7 @@
 
             <div class="col-md-4">
                 <a class="card__item card__item--right" href="/ubezpieczenie-nnw">
-                    <img class="card__image" src="/wp-content/themes/grzybowski/img/ikona-wypadek.png" alt="Ubezpieczenie NNW">
+                    <img class="card__image" src="/wp-content/uploads/2020/03/ikona-wypadek.png" alt="Ubezpieczenie NNW">
 
                     <div class="card__content card__content--right">
                         <h3 class="card__header">Ubezpieczenia NNW</h3>
@@ -110,7 +110,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
-                <img class="about__image" src="/wp-content/themes/grzybowski/img/ikona-garnitur.png" alt="Agencja J. Grzybowski – Ubezpieczenia">
+                <img class="about__image" src="/wp-content/uploads/2020/03/ikona-garnitur.png" alt="Agencja J. Grzybowski – Ubezpieczenia">
             </div>
             <div class="col-sm-8">
                 <div class="about__content">
@@ -133,7 +133,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <img class="about__image" src="/wp-content/themes/grzybowski/img/ikona-dokumenty.png" alt="Dokumenty ubezpieczeniowe i inne pliki do pobrania">
+                <img class="about__image" src="/wp-content/uploads/2020/03/ikona-dokumenty.png" alt="Dokumenty ubezpieczeniowe i inne pliki do pobrania">
             </div>
         </div>
 </section>
@@ -148,7 +148,7 @@
                     <img class="partners__logo partners__logo--big" alt="PZU - ubezpieczenia"
                          src="/wp-content/themes/grzybowski/img/logo-pzu.svg">
                     <img class="partners__logo partners__logo--small" alt="Warta - ubezpieczenia"
-                         src="/wp-content/themes/grzybowski/img/logo-warta.jpg">
+                         src="/wp-content/themes/grzybowski/img/logo-warta.svg">
                     <img class="partners__logo partners__logo--big" alt="HDI - ubezpieczenia"
                          src="/wp-content/themes/grzybowski/img/logo-hdi.svg">
                     <img class="partners__logo partners__logo--big" alt="Generali - ubezpieczenia"
