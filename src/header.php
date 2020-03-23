@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#163963">
     <meta name="description" content="Agencja Ubezpieczeniowa Janusz Grzybowski – oferujemy ubezpieczenia samochodów, OC, AC, ubezpieczenia na życie, ubezpieczenia NNW, mieszkaniowe oraz wiele innych">
-    <link rel="manifest" href="/wp-content/themes/grzybowski/manifest.json">
     <link rel="stylesheet" type="text/css" href="/wp-content/themes/grzybowski/style.css"/>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -113,7 +112,7 @@
     <div class="header__middle">
         <div class="header__container container">
             <a href="/" title="Agencja Ubezpieczeniowa J. Grzybowski">
-                <img class="header__logo" alt="Janusz Grzybowski - ubezpieczenia - Wołomin, Ząbki, Warszawa" src="/wp-content/themes/grzybowski/img/logo.jpg"/>
+                <img class="header__logo" alt="Janusz Grzybowski - ubezpieczenia - Wołomin, Ząbki, Warszawa" src="/wp-content/themes/grzybowski/img/logo.svg"/>
             </a>
             <nav class="header__nav-desktop">
                 <?php wp_nav_menu(array('theme_location' => 'nav-menu', 'container' => false)); ?>

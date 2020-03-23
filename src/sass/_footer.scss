@@ -10,6 +10,8 @@
   }
 
   &__paragraph {
+    font-size: 14px;
+
     &--first {
       margin: 0;
     }
@@ -25,9 +27,13 @@
   }
 
   &__link {
-    padding: 2px 0;
+    margin: 6px 0;
     font-size: 14px;
     color: #fff;
+
+    @media screen and (min-width: $tablet) {
+      margin: 2px 0;
+    }
   }
 
   &__copyright {

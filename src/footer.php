@@ -16,10 +16,10 @@
                 </div>
 
                 <h5 class="footer__title--next">Dodatkowe informacje i dokumenty</h5>
-                <p>
-                    <a href="/polityka-prywatnosci" class="footer__link">Polityka prywatności</a><br>
+                <div class="footer__links-container">
+                    <a href="/polityka-prywatnosci" class="footer__link">Polityka prywatności</a>
                     <a href="/dokumenty-do-pobrania" class="footer__link">Dokumenty do pobrania</a>
-                </p>
+                </div>
             </div>
 
             <div class="col-md-3">
@@ -115,11 +115,6 @@
         document.querySelector('.cookies').classList.add("cookies--show");
     }
     // ---------- /cookies banner ---------- //
-
-
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/wp-content/themes/grzybowski/sw.js');
-    }
 </script>
 
 <?php wp_footer(); ?>
