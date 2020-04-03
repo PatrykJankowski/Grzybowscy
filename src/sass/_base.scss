@@ -119,11 +119,13 @@ select:-moz-focusring {
 
 
 
+
+
+
 .offer {
   background-color: $white;
   margin-top: $L;
 }
-
 
 .main {
   color: $blue;
@@ -133,6 +135,15 @@ select:-moz-focusring {
   text-align: center;
 }
 
+.has-2-columns {
+  .wp-block-column:last-child {
+    margin-top: $S;
+
+    @include for-size(tablet) {
+      margin-top: 0;
+    }
+  }
+}
 
 .new-line {
   @media only screen and (min-width: 450px) {

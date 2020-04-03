@@ -50,27 +50,6 @@
                     </div>
                 </a>
             </div>
-            <div class="col-md-4">
-                <a class="card__item" href="/ubezpieczenie-turystyczne">
-                    <img class="card__image" src="/wp-content/uploads/2020/03/ikona-samolot.png" alt="Ubezpieczenie turystyczne">
-                    <div class="card__content">
-                        <h3 class="card__header">Ubezpieczenia turystyczne</h3>
-                        <p class="card__text">Ubezpieczenie turystyczne przeznaczone jest dla osób podróżujących prywatnie jak też służbowo za granicę oraz w Polsce. Zapewnia przede wszystkim organizację i pokrycie kosztów leczenia ambulatoryjnego i szpitalnego w razie choroby, bądź wypadku.</p>
-                        <span class="card__link">Zapoznaj się z ofertą</span>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-4">
-                <a class="card__item card__item--right" href="/ubezpieczenie-zdrowotne">
-                    <img class="card__image" src="/wp-content/uploads/2020/03/ikona-apteczka.png" alt="Ubezpieczenie zdrowotne">
-
-                    <div class="card__content card__content--right">
-                        <h3 class="card__header">Ubezpieczenia zdrowotne</h3>
-                        <p class="card__text">Ubezpieczenie zdrowotne nazywane też ubezpieczeniem medycznym zapewnia dostęp do bardzo szerokiego zakresu usług i świadczeń medycznych, które są realizowane w placówkach medycznych o wysokiej renomie.</p>
-                        <span class="card__link">Zapoznaj się z ofertą</span>
-                    </div>
-                </a>
-            </div>
 
             <div class="col-md-4">
                 <a class="card__item" href="/ubezpieczenie-na-zycie">
@@ -84,12 +63,35 @@
             </div>
 
             <div class="col-md-4">
+                <a class="card__item card__item--right" href="/ubezpieczenie-zdrowotne">
+                    <img class="card__image" src="/wp-content/uploads/2020/03/ikona-apteczka.png" alt="Ubezpieczenie zdrowotne">
+
+                    <div class="card__content card__content--right">
+                        <h3 class="card__header">Ubezpieczenia zdrowotne</h3>
+                        <p class="card__text">Ubezpieczenie zdrowotne nazywane też ubezpieczeniem medycznym zapewnia dostęp do bardzo szerokiego zakresu usług i świadczeń medycznych, które są realizowane w placówkach medycznych o wysokiej renomie.</p>
+                        <span class="card__link">Zapoznaj się z ofertą</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4">
                 <a class="card__item card__item--right" href="/ubezpieczenie-nnw">
                     <img class="card__image" src="/wp-content/uploads/2020/03/ikona-wypadek.png" alt="Ubezpieczenie NNW">
 
                     <div class="card__content card__content--right">
                         <h3 class="card__header">Ubezpieczenia NNW</h3>
                         <p class="card__text">Ubezpieczenie NNW zapewnia ochronę przed skutkami nieszczęśliwych zdarzeń w życiu codziennym i w pracy. Szeroki zakres ubezpieczenia umożliwia dopasowanie ochrony do potrzeb ubezpieczonego, na całym świecie i przez całą dobę.</p>
+                        <span class="card__link">Zapoznaj się z ofertą</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4">
+                <a class="card__item" href="/ubezpieczenie-turystyczne">
+                    <img class="card__image" src="/wp-content/uploads/2020/03/ikona-samolot.png" alt="Ubezpieczenie turystyczne">
+                    <div class="card__content">
+                        <h3 class="card__header">Ubezpieczenia turystyczne</h3>
+                        <p class="card__text">Ubezpieczenie turystyczne przeznaczone jest dla osób podróżujących prywatnie jak też służbowo za granicę oraz w Polsce. Zapewnia przede wszystkim organizację i pokrycie kosztów leczenia ambulatoryjnego i szpitalnego w razie choroby, bądź wypadku.</p>
                         <span class="card__link">Zapoznaj się z ofertą</span>
                     </div>
                 </a>
