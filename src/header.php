@@ -7,21 +7,7 @@
     <meta name="theme-color" content="#163963">
     <meta name="description" content="Agencja Ubezpieczeniowa Janusz Grzybowski – oferujemy ubezpieczenia samochodów, OC, AC, ubezpieczenia na życie, ubezpieczenia NNW, mieszkaniowe oraz wiele innych">
     <link rel="stylesheet" type="text/css" href="/wp-content/themes/grzybowski/style.css"/>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src=""></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
-        gtag('js', new Date());
-
-        gtag('config', '');
-    </script>
-
+    <link rel="icon" href="/wp-content/themes/grzybowski/favicon.ico" type="image/x-icon" />
     <?php wp_head(); ?>
 </head>
 
