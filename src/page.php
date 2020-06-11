@@ -5,7 +5,10 @@
         <div class="container">
             <div class="subpage-top__container">
                 <?php the_post_thumbnail(); ?>
-                <h1 class="subpage-top__header"><?php the_title(); ?></h1>
+                <div class="subpage-top__headers">
+                    <h1 class="subpage-top__header"><?php the_title(); ?></h1>
+                    <h2 class="subpage-top__subheader">Wołomin, Ząbki, Kobyłka</h2>
+                </div>
             </div>
         </div>
     </section>

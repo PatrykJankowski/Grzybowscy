@@ -5,7 +5,6 @@
     <meta charset="<?php bloginfo('charset'); ?>"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#163963">
-    <meta name="description" content="Agencja Ubezpieczeniowa Janusz Grzybowski – oferujemy ubezpieczenia samochodów, OC, AC, ubezpieczenia na życie, ubezpieczenia NNW, mieszkaniowe oraz wiele innych">
     <link rel="stylesheet" type="text/css" href="/wp-content/themes/grzybowski/style.css"/>
     <link rel="icon" href="/wp-content/themes/grzybowski/favicon.ico" type="image/x-icon" />
     <?php wp_head(); ?>
