@@ -21,7 +21,7 @@
         <h2 class="main center">W naszej ofercie posiadamy:</h2>
         <div class="row">
             <div class="col-md-4">
-                <a class="card__item card__item" href="/ubezpieczenie-komunikacyjne">
+                <a class="card__item card__item" href="/ubezpieczenie-samochodu">
                     <img class="card__image" src="/wp-content/uploads/2020/03/ikona-samochod.png" alt="Ubezpieczenie komunikacyjne">
                     <div class="card__content">
                         <h3 class="card__header">Ubezpieczenia komunikacyjne</h3>
@@ -33,7 +33,7 @@
                 </a>
             </div>
             <div class="col-md-4">
-                <a class="card__item card__item--right" href="/ubezpieczenie-domow-mieszkan">
+                <a class="card__item card__item--right" href="/ubezpieczenie-domu-mieszkania">
                     <img class="card__image" src="/wp-content/uploads/2020/03/ikona-dom.png" alt="Ubezpieczenie mieszkaniowe">
 
                     <div class="card__content card__content--right">
