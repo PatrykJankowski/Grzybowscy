@@ -7,12 +7,12 @@
                 <h4 class="footer__title">Agencja J. Grzybowski</h4>
                 <div class="footer__links-container">
                     <a href="/o-nas" class="footer__link">Agencja Ubezpieczeniowa J. Grzybowski</a>
-                    <a href="/ubezpieczenie-samochodu" class="footer__link">Ubezpieczenia komunikacyjne (ubezpieczenie OC, NNW, AC)</a>
-                    <a href="/ubezpieczenie-domu-mieszkania" class="footer__link">Ubezpieczenia domów</a>
-                    <a href="/ubezpieczenie-turystyczne" class="footer__link">Ubezpieczenia turystyczne (podróżne)</a>
-                    <a href="/ubezpieczenie-zdrowotne" class="footer__link">Ubezpieczenia zdrowotne</a>
-                    <a href="/ubezpieczenie-na-zycie" class="footer__link">Ubezpieczenia na życie</a>
-                    <a href="/ubezpieczenie-nnw" class="footer__link">Ubezpieczenia NNW (wypadkowe)</a>
+                    <a href="/ubezpieczenie-oc-samochodu" class="footer__link">Ubezpieczenie OC (samochodu)</a>
+                    <a href="/ubezpieczenie-domu-mieszkania" class="footer__link">Ubezpieczenie domu</a>
+                    <a href="/ubezpieczenie-turystyczne" class="footer__link">Ubezpieczenie turystyczne (podróżne)</a>
+                    <a href="/ubezpieczenie-zdrowotne" class="footer__link">Ubezpieczenie zdrowotne</a>
+                    <a href="/ubezpieczenie-na-zycie" class="footer__link">Ubezpieczenie na życie</a>
+                    <a href="/ubezpieczenie-nnw" class="footer__link">Ubezpieczenie NNW (wypadkowe)</a>
                 </div>
 
                 <h5 class="footer__title--next">Dodatkowe informacje i dokumenty</h5>

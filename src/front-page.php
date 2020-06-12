@@ -21,7 +21,7 @@
         <h2 class="main center">W naszej ofercie posiadamy:</h2>
         <div class="row">
             <div class="col-md-4">
-                <a class="card__item card__item" href="/ubezpieczenie-samochodu">
+                <a class="card__item card__item" href="/ubezpieczenie-oc-samochodu">
                     <img class="card__image" src="/wp-content/uploads/2020/03/ikona-samochod.png" alt="Ubezpieczenie komunikacyjne">
                     <div class="card__content">
                         <h3 class="card__header">Ubezpieczenia komunikacyjne</h3>
